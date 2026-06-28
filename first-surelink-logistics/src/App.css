@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -152,11 +153,12 @@ body {
   gap: 60px;
   align-items: center;
   padding: 80px 50px;
+  text-align: left;
   background-color: #ffffff;
 }
 
 .service.blue {
-  background: #d9fbff;
+  background: #edfeff;
 }
 
 .service img {
@@ -166,7 +168,7 @@ body {
 }
 
 .service h2 {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 25px;
   color: #000;
   text-align: left;
@@ -180,17 +182,21 @@ body {
 .service button {
   background: #e00000;
   color: white;
+  border-radius: 10px;
   border: none;
   padding: 14px 28px;
   font-weight: bold;
   cursor: pointer;
 }
+
+/* Features Section */
+
 .features {
   background: #06265a;
-  padding: 45px 12%;
+ padding: 100px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 30px;
 }
 
 .feature-card {
@@ -198,7 +204,93 @@ body {
   border: 1px solid white;
   border-radius: 10px;
   text-align: center;
-  padding: 35px 25px;
+  padding: 35px 5px;
+}
+
+.feature-card {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 35px 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  background: #fff;
+  color: #000;
+}
+
+.feature-card .icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .icon {
+  color: #000;
+}
+/* Continent Section */
+
+.continent-section {
+  background: #06265a;
+ padding: 100px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.continent-video {
+  position: relative;
+  grid-column: 1 / -1;
+  aspect-ratio: 26 / 10; /* Maintains the aspect ratio */
+  margin-bottom: 30px;
+}
+
+.continent-video video {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  color: #06265a;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play-btn:hover {
+  background: #fff;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.continent-header {
+  grid-column: span 3;
+  text-align: left;
+}
+
+.continent-header h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.continent-card {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 5px;
 }
 
 .icon {
@@ -215,18 +307,24 @@ body {
 .tagline h2 {
   margin-bottom: 20px;
   font-weight: 500;
+  
 }
 
+/* Realiable Tracking Section */
 .red-section {
   background: #e00000;
   color: white;
-  padding: 80px 12%;
+  padding: 100px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
     text-align: left;
 }
 
+.red-section h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
 .red-section p {
   max-width: 700px;
   line-height: 1.5;
@@ -243,9 +341,9 @@ body {
 }
 
 .smart-logistics {
-  background: #d9fbff;
+  background: #edfeff;
   margin: 70px 2%;
-  padding: 60px 5%;
+  padding: 100px 50px;
 }
 
 .smart-logistics h2 {
@@ -322,5 +420,22 @@ body {
 
   .smart-logistics h2 {
     font-size: 28px;
+  }
+
+  .continent-video {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 0;
+  }
+
+  .continent-video video {
+    width: 100%;
+    max-width: 500px; /* Optional: prevents it from becoming too wide */
+    height: auto;
+    aspect-ratio: 26 / 10; /* Maintains the aspect ratio */
+    object-fit: cover;
+    display: block;
   }
 }

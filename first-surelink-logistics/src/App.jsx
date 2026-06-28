@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from "react";
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -7,6 +7,14 @@ import './App.css'
 import "./App.css";
 
 function App() {
+  const videoRef = useRef(null);
+  const [playing, setPlaying] = useState(false);
+
+  const playVideo = () => {
+    videoRef.current.play();
+    setPlaying(true);
+  };
+
   return (
     <div>
       <header className="header">
@@ -103,13 +111,38 @@ function App() {
         <Feature title="All modes of transport" />
       </section>
 
-      <section className="tagline">
-        <h2>Wherever Life Takes You, First Sure Link Delivers</h2>
-        <p>
-          Let First Sure Link Logistics handle your shipping and logistics while
-          you focus on what matters most.
-        </p>
+
+      <section className="continent-section">
+                <div className="continent-header">
+          <h2>Global Shipping Routes</h2>
+        </div>
+        <div className="continent-video">
+          
+      <video
+        ref={videoRef}
+        onPause={() => setPlaying(false)}
+        controls={playing}
+      >
+       <source
+  src="https://res.cloudinary.com/dtj7gatn2/video/upload/video-output-F43B314B-2B47-4907-B1D4-90A4C0A84274-1_xklrzy.mov"
+  type="video/mp4"
+/>
+      </video>
+
+      {!playing && (
+        <button className="play-btn" onClick={playVideo}>
+          ▶
+        </button>
+      )}
+    </div>
+
+        <Continent title="Asia" />
+        <Continent title="Europe" />
+        <Continent title="Africa" />
+        <Continent title="North America" />
+        <Continent title="South America" />
       </section>
+
 
       <section className="red-section">
         <div>
@@ -124,7 +157,8 @@ function App() {
         <div className="big-icon">📍</div>
       </section>
 
-      <section className="smart-logistics">
+      <section className="smart">
+        <div className="smart-logisticsr"></div>
         <h2>Connecting Global Trade Through Smarter Logistics.</h2>
 
         <div className="smart-grid">
@@ -133,6 +167,15 @@ function App() {
           <InfoCard title="Cargo Insurance" />
         </div>
       </section>
+
+      <section className="tagline">
+        <h2>Wherever Life Takes You, First Sure Link Delivers</h2>
+        <p>
+          Let First Sure Link Logistics handle your shipping and logistics while
+          you focus on what matters most.
+        </p>
+      </section>
+
 
       <footer className="footer">
         <div>
@@ -174,6 +217,16 @@ function InfoCard({ title }) {
         deliver reliable and cost-effective logistics solutions for every
         shipment.
       </p>
+    </div>
+  );
+}
+
+//continent section//
+
+function Continent({ title }) {
+  return (
+    <div className="continent-card">
+      <p>{title}</p>
     </div>
   );
 }
