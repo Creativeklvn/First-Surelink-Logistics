@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -6,48 +7,96 @@ import './App.css'
 
 import "./App.css";
 
+
 function App() {
+
+   const [menuOpen, setMenuOpen] = useState(false);
+
+
   const videoRef = useRef(null);
   const [playing, setPlaying] = useState(false);
 
   const playVideo = () => {
     videoRef.current.play();
     setPlaying(true);
+
+
   };
 
   return (
     <div>
-      <header className="header">
-        <div className="logo">LOGO</div>
+<header className="header">
+  <div className="logo">
+    <img src="/images/logo2.PNG" alt="Sea freight" />
+  </div>
 
-        <nav className="nav">
-          <a className="active">Home</a>
-          <a>Tracking</a>
+  <nav className="nav">
+    
+    <Link to="/" className="nav-link active">
+      Home
+    </Link>
 
-          <div className="dropdown">
-            <a>Services ▾</a>
-            <div className="dropdown-menu">
-              <a>Sea Freight</a>
-              <a>Land Freight</a>
-              <a>Air Freight</a>
-              <a>Warehousing</a>
-              <a>Customs Clearing</a>
-            </div>
-          </div>
+    <Link to="/tracking" className="nav-link">
+      Tracking
+    </Link>
 
-          <div className="dropdown">
-            <a>Company ▾</a>
-            <div className="dropdown-menu">
-              <a>About Us</a>
-              <a>Our Team</a>
-              <a>Careers</a>
-              <a>News & Updates</a>
-            </div>
-          </div>
-        </nav>
+    <div className="dropdown">
+      <span className="nav-link">Services ▾</span>
 
-        <div className="menu-icon">☰</div>
-      </header>
+      <div className="dropdown-menu">
+        <Link to="/sea-freight" className="dropdown-link">
+          Sea Freight
+        </Link>
+        <Link to="/land-freight" className="dropdown-link">
+          Land Freight
+        </Link>
+        <Link to="/air-freight" className="dropdown-link">
+          Air Freight
+        </Link>
+        <Link to="/warehousing" className="dropdown-link">
+          Warehousing
+        </Link>
+        <Link to="/customs-clearing" className="dropdown-link">
+          Customs Clearing
+        </Link>
+      </div>
+    </div>
+
+    <div className="dropdown">
+      <span className="nav-link">Company ▾</span>
+
+      <div className="dropdown-menu">
+        <Link to="/about" className="dropdown-link">
+          About Us
+        </Link>
+        <Link to="/team" className="dropdown-link">
+          Our Team
+        </Link>
+        <Link to="/careers" className="dropdown-link">
+          Careers
+        </Link>
+        <Link to="/news" className="dropdown-link">
+          News & Updates
+        </Link>
+      </div>
+    </div>
+  </nav>
+
+    <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? "✕" : "☰"}
+</div>
+</header>
+    <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
+      <Link className="mobile-item" to="/">Home</Link>
+      <Link className="mobile-item" to="/tracking">Tracking</Link>
+      <Link className="mobile-item" to="/sea-freight">Sea Freight</Link>
+      <Link className="mobile-item" to="/land-freight">Land Freight</Link>
+      <Link className="mobile-item" to="/air-freight">Air Freight</Link>
+      <Link className="mobile-item" to="/warehousing">Warehousing</Link>
+      <Link className="mobile-item" to="/customs-clearing">Customs Clearing</Link>
+      <Link className="mobile-item" to="/about">About Us</Link>
+      <Link className="mobile-item" to="/contact">Contact</Link>
+    </div>
 
       <section className="hero">
         <div className="hero-overlay">
@@ -158,13 +207,17 @@ function App() {
       </section>
 
       <section className="smart">
-        <div className="smart-logisticsr"></div>
+          <div className="container">
+    <img src="/images/container.png" alt="Sea freight" />
+  </div>
+        <div className="smart-logistics">
         <h2>Connecting Global Trade Through Smarter Logistics.</h2>
 
         <div className="smart-grid">
           <InfoCard title="Global Carrier Partnerships" />
           <InfoCard title="Global Shipping Network" />
           <InfoCard title="Cargo Insurance" />
+        </div>
         </div>
       </section>
 
@@ -179,17 +232,46 @@ function App() {
 
       <footer className="footer">
         <div>
-          <div className="footer-logo">ICON</div>
+            <div className="footer-logo">
+    <img src="/images/logo2.PNG" alt="Sea freight" />
+  </div>
           <h2>First Sure Link Logistics</h2>
           <p>081111818</p>
           <p>firstsurelink@gmail.com</p>
           <p>Address:</p>
         </div>
 
-        <FooterLinks title="Services" items={["Air Freight", "Land Freight", "Sea Freight", "Warehousing"]} />
-        <FooterLinks title="Route" items={["Africa", "Europe", "Asia", "North America", "South America"]} />
-        <FooterLinks title="Company" items={["About Us", "Tracking", "Contact Us", "Privacy Policy", "Terms and Condition"]} />
-      </footer>
+<FooterLinks
+  title="Services"
+  items={[
+    { label: "Air Freight", link: "/air-freight" },
+    { label: "Land Freight", link: "/land-freight" },
+    { label: "Sea Freight", link: "/sea-freight" },
+    { label: "Warehousing", link: "/warehousing" },
+  ]}
+/>
+
+<FooterLinks
+  title="Route"
+  items={[
+    { label: "Africa", link: "/africa" },
+    { label: "Europe", link: "/europe" },
+    { label: "Asia", link: "/asia" },
+    { label: "North America", link: "/north-america" },
+    { label: "South America", link: "/south-america" },
+  ]}
+/>
+
+<FooterLinks
+  title="Company"
+  items={[
+    { label: "About Us", link: "/about" },
+    { label: "Tracking", link: "/tracking" },
+    { label: "Contact Us", link: "/contact" },
+    { label: "Privacy Policy", link: "/privacy-policy" },
+    { label: "Terms and Conditions", link: "/terms-and-conditions" },
+  ]}
+/> </footer>
     </div>
   );
 }
@@ -233,12 +315,16 @@ function Continent({ title }) {
 
 function FooterLinks({ title, items }) {
   return (
-    <div>
-      <h3>{title}</h3>
-      {items.map((item) => (
-        <p key={item}>{item}</p>
-      ))}
-    </div>
+<div>
+  <h3>{title}</h3>
+  {items.map((item) => (
+    <p key={item.label}>
+      <Link to={item.link} className="footer-link">
+        {item.label}
+      </Link>
+    </p>
+  ))}
+</div>
   );
 }
 

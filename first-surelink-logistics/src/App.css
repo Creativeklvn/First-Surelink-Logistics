@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  height: 70px;
+  height: 90px;
   padding: 0 10%;
   display: flex;
   align-items: center;
@@ -22,25 +22,56 @@ body {
   z-index: 100;
 }
 
-.logo {
-  font-weight: bold;
+.nav-link,
+.dropdown-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:visited,
+.dropdown-link:visited {
+  color: #e00000;
+}
+
+.nav-link:hover,
+.dropdown-link:hover {
+  color: #e00000;
+}
+
+.nav-link {
+  display: inline-block; /* Makes the width match the text */
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e00000;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+
+.logo img{
+  width: 70px;
+  
 }
 
 .nav {
   display: flex;
   gap: 45px;
   align-items: center;
-}
-
-.nav a {
-  color: #000;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.nav .active {
-  border-bottom: 3px solid red;
 }
 
 .dropdown {
@@ -113,7 +144,7 @@ body {
 .tracking {
   background: #06265a;
   color: white;
-  padding: 35px 16%;
+  padding: 85px 16%;
 }
 
 .tracking h2{
@@ -333,6 +364,8 @@ body {
 
 .red-section button {
   background: #06265a;
+  border-radius: 10px;
+  
 }
 
 .big-icon {
@@ -340,16 +373,30 @@ body {
   text-align: center;
 }
 
+.container{
+  padding: 0 20px;
+  margin-top: -100px;
+}
+.container img{
+width: 70%;
+}
+.smart {
+  background: #ffffff;
+  padding: 100px 50px;
+}
+
 .smart-logistics {
   background: #edfeff;
-  margin: 70px 2%;
   padding: 100px 50px;
 }
 
 .smart-logistics h2 {
-  font-size: 36px;
+  color: #06265a;
+  font-size: 40px;
   max-width: 600px;
   margin-bottom: 50px;
+  text-align: center;
+  justify-self: center;
 }
 
 .smart-grid {
@@ -373,19 +420,76 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 50px;
+  text-align: left;
+}
+
+.footer-logo img{
+    width: 70px;
 }
 
 .footer h3 {
-  border-bottom: 3px solid red;
+  border-bottom: 1px solid #e00000;
   width: fit-content;
   margin-bottom: 15px;
 }
 
 .footer p {
+  font-size: 14px;
+  line-height: 1.5;
   margin: 12px 0;
 }
 
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #e00000; /* or any hover color you prefer */
+}
+
+
+.mobile-menu {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .mobile-menu.show {
+    display: block;
+  }
+
+  .mobile-item {
+    display: block;
+    background: #d71920;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 28px 35px;
+    border-bottom: 1px solid white;
+  }
+}
+@media (max-width: 768px) {
+  
   .nav {
     display: none;
   }
