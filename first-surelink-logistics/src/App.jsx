@@ -8,6 +8,10 @@ import './App.css'
 import "./App.css";
 
 
+import globalIcon from "/images/global.png";
+import partnershipIcon from "/images/partnership.png";
+import insuranceIcon from "/images/insurance.png";
+
 function App() {
 
    const [menuOpen, setMenuOpen] = useState(false);
@@ -118,6 +122,12 @@ function App() {
         </div>
       </section>
 
+      <section className="core">
+        <div>
+          <h2>Our Core Transport Channels</h2>
+          </div>
+          </section>
+
       <section className="service white">
         <div>
           <h2>Global Sea Freight</h2>
@@ -206,6 +216,7 @@ function App() {
         <div className="big-icon">📍</div>
       </section>
 
+
       <section className="smart">
           <div className="container">
     <img src="/images/container.png" alt="Sea freight" />
@@ -214,12 +225,39 @@ function App() {
         <h2>Connecting Global Trade Through Smarter Logistics.</h2>
 
         <div className="smart-grid">
-          <InfoCard title="Global Carrier Partnerships" />
-          <InfoCard title="Global Shipping Network" />
-          <InfoCard title="Cargo Insurance" />
-        </div>
-        </div>
-      </section>
+  <InfoCard
+    icon={partnershipIcon}
+    title="Global Carrier Partnerships"
+    description="At First Sure Link Logistics, we work closely with 
+    leading shipping lines and logistics partners around the world to 
+    secure competitive freight rates, dependable cargo space, flexible 
+    shipping options, and efficient transit times. Our strong industry 
+    relationships help us deliver reliable and cost-effective logistics 
+    solutions for every shipment."
+  />
+
+  <InfoCard
+    icon={globalIcon}
+    title="Global Shipping Network"
+    description="Ship to and from virtually anywhere in the world with 
+    confidence. Through our extensive international network of trusted 
+    partners, we provide seamless import and export services across Asia, 
+    Africa, Europe, North America, South America, and beyond, ensuring your 
+    cargo reaches its destination safely and efficiently."
+  />
+
+  <InfoCard
+    icon={insuranceIcon}
+    title="Cargo Insurance"
+    description="Protect your shipments against unexpected risks with 
+    our cargo insurance solutions. From loading and unloading operations to 
+    theft, damage, loss, and unforeseen transit incidents, we help safeguard 
+    your cargo throughout its journey, giving you added confidence and peace of mind."
+  />
+</div>
+    </div>
+    </section>
+
 
       <section className="tagline">
         <h2>Wherever Life Takes You, First Sure Link Delivers</h2>
@@ -232,7 +270,7 @@ function App() {
 
       <footer className="footer">
         <div>
-            <div className="footer-logo">
+        <div className="footer-logo">
     <img src="/images/logo2.PNG" alt="Sea freight" />
   </div>
           <h2>First Sure Link Logistics</h2>
@@ -289,19 +327,16 @@ function Feature({ title }) {
   );
 }
 
-function InfoCard({ title }) {
+function InfoCard({ icon, title, description }) {
   return (
     <div className="info-card">
-      <div className="icon dark">📍</div>
+       <img src={icon} alt={title} className="info-icon" />
       <h3>{title}</h3>
-      <p>
-        At First Sure Link Logistics, we work closely with trusted partners to
-        deliver reliable and cost-effective logistics solutions for every
-        shipment.
-      </p>
+      <p>{description}</p>
     </div>
   );
 }
+
 
 //continent section//
 
