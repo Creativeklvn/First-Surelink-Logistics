@@ -274,9 +274,32 @@ function App() {
     <img src="/images/logo2.PNG" alt="Sea freight" />
   </div>
           <h2>First Sure Link Logistics</h2>
-          <p>081111818</p>
-          <p>firstsurelink@gmail.com</p>
-          <p>Address:</p>
+<div className="contact-info">
+  <div className="contact-item">
+    <img src={insuranceIcon} alt="Phone" className="contact-icon" />
+    <span>08036915391</span>
+  </div>
+
+  <div className="contact-item">
+    <img src={insuranceIcon} alt="Phone" className="contact-icon" />
+    <span>09021650864</span>
+  </div>
+
+  <div className="contact-item">
+    <img src={insuranceIcon} alt="Phone" className="contact-icon" />
+    <span>08178766130</span>
+  </div>
+
+  <div className="contact-item">
+    <img src={insuranceIcon} alt="Email" className="contact-icon" />
+    <span>firstsurelink@gmail.com</span>
+  </div>
+
+  <div className="contact-item">
+    <img src={insuranceIcon} alt="Location" className="contact-icon" />
+    <span>4, Ashanti Close, Apapa, Lagos, Nigeria</span>
+  </div>
+</div>
         </div>
 
 <FooterLinks
