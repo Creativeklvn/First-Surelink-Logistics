@@ -3,9 +3,9 @@ import "../css/route.css";
 function RouteNorthAmerica() {
   return (
     <main className="page">
-      <section className="page-africa">
+      <section className="page-northamerica">
         <div className="page-hero-content">
-          <h1>NorthAmerica</h1>
+          <h1>North America</h1>
           <p>Whether importing or exporting, we simplify shipping to and from North America.</p>
         </div>
       </section>
@@ -31,12 +31,12 @@ regulatory procedures, allowing us to simplify cross-border shipping and minimiz
 
 <p>
   
-Whether you're importing commercial goods, exporting products, or transporting personal cargo, we offer tailored 
+Whether you are importing commercial goods, exporting products, or transporting personal cargo, we offer tailored 
 logistics solutions designed to meet your unique shipping needs. Our commitment to reliability, transparency, and 
 customer satisfaction has made us a trusted logistics partner for clients shipping to and from North America.
 </p>
         
-        <h3>Reliable Road Transportation</h3>
+        <h3>Road Logistics Solutions</h3>
 <p>
   First Sure Link Logistics provides dependable land freight services designed
   to move your cargo safely and efficiently across cities, states, and
@@ -91,24 +91,6 @@ customer satisfaction has made us a trusted logistics partner for clients shippi
 
   </div>
 </section>
-
-<section className="gallery">
-
-  <div className="box left">
-    <img src="/images/land1.png" alt="" />
-  </div>
-
-  <div className="box center">
-    <img src="/images/land3.png" alt="" />
-  </div>
-
-  <div className="box right">
-    <img src="/images/land2.png" alt="" />
-  </div>
-
-</section>
-
-
 
     </main>
   );

@@ -6,7 +6,7 @@ function RouteAfrica() {
       <section className="page-africa">
         <div className="page-hero-content">
           <h1>Africa</h1>
-          <p>Whether importing or exporting, we simplify shipping to and from North America.</p>
+          <p>Whether importing or exporting, we simplify shipping to and from Africa.</p>
         </div>
       </section>
 
@@ -18,21 +18,31 @@ function RouteAfrica() {
 </h2>
 
 <p>
-  First Sure Link Logistics offers comprehensive freight solutions for businesses and individuals shipping cargo throughout Africa. Our logistics network is designed to deliver efficient, secure, and cost-effective transportation for a wide range of goods across the continent.
+  First Sure Link Logistics offers comprehensive freight solutions for 
+  businesses and individuals shipping cargo throughout Africa. Our logistics
+  network is designed to deliver efficient, secure, and cost-effective 
+  transportation for a wide range of goods across the continent.
 </p>
 
 <p>
-  From customs documentation and cargo handling to cross-border transportation and final delivery, our experienced team manages every stage of the logistics process. We understand the complexities of regional trade and work to ensure smooth and timely movement of every shipment.
+  From customs documentation and cargo handling to cross-border transportation 
+  and final delivery, our experienced team manages every stage of the logistics 
+  process. We understand the complexities of regional trade and work to ensure 
+  smooth and timely movement of every shipment.
 </p>
 
 <p>
-  Whether you're transporting commercial products, industrial equipment, or personal belongings, we provide flexible logistics solutions tailored to your shipping requirements. Our commitment to quality service and operational excellence makes us a trusted partner for cargo transportation across Africa.
+  We provide flexible logistics solutions tailored to your 
+  shipping requirements. Our commitment to quality service and operational excellence 
+  makes us a trusted partner for cargo transportation across Africa.
 </p>
 
-<h3>Efficient Freight Transportation Across Africa</h3>
+<h3>Effective Transportation of Goods Throughout Africa</h3>
 
 <p>
-  We provide dependable road freight services connecting major cities, trade corridors, and neighboring countries across Africa. Every shipment is handled with care, ensuring secure transportation and timely delivery from pickup to destination.
+  We provide dependable road freight services connecting major cities, trade corridors, 
+  and neighboring countries across Africa. Every shipment is handled with care, ensuring 
+  secure transportation and timely delivery from pickup to destination.
 </p>
       </section>
 
@@ -75,25 +85,6 @@ function RouteAfrica() {
 
   </div>
 </section>
-
-<section className="gallery">
-
-  <div className="box left">
-    <img src="/images/land1.png" alt="" />
-  </div>
-
-  <div className="box center">
-    <img src="/images/land3.png" alt="" />
-  </div>
-
-  <div className="box right">
-    <img src="/images/land2.png" alt="" />
-  </div>
-
-</section>
-
-
-
     </main>
   );
 }

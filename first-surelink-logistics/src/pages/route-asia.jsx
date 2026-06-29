@@ -3,7 +3,7 @@ import "../css/route.css";
 function RouteAsia() {
   return (
     <main className="page">
-      <section className="page-africa">
+      <section className="page-asia">
         <div className="page-hero-content">
           <h1>Asia</h1>
           <p>Whether importing or exporting, we simplify shipping to and from North America.</p>
@@ -18,21 +18,28 @@ function RouteAsia() {
 </h2>
 
 <p>
-  First Sure Link Logistics provides comprehensive freight solutions for businesses and individuals shipping cargo to and from Asia. With access to major trade hubs and transportation networks, we ensure your shipments move efficiently, securely, and on schedule.
+  First Sure Link Logistics provides comprehensive freight solutions for businesses and individuals 
+  shipping cargo to and from Asia. With access to major trade hubs and transportation networks, 
+  we ensure your shipments move efficiently, securely, and on schedule.
 </p>
 
 <p>
-  Our experienced logistics team oversees every stage of the shipping process, from cargo documentation and customs clearance to transportation and final delivery. We navigate regional regulations and international trade requirements to ensure smooth and hassle-free shipping across Asia.
+  Our experienced logistics team oversees every stage of the shipping process, from cargo documentation 
+  and customs clearance to transportation and final delivery. We navigate regional regulations and international 
+  trade requirements to ensure smooth and hassle-free shipping across Asia.
 </p>
 
 <p>
-  Whether you're importing raw materials, exporting finished products, or transporting personal effects, we deliver tailored logistics solutions to meet your specific shipping needs. Our focus on efficiency, transparency, and customer satisfaction makes us a trusted logistics partner for cargo moving throughout Asia.
+  Whether you're importing raw materials, exporting finished products, or transporting personal effects, we deliver 
+  tailored logistics solutions to meet your specific shipping needs. Our focus on efficiency, transparency, and customer 
+  satisfaction makes us a trusted logistics partner for cargo moving throughout Asia.
 </p>
 
 <h3>Efficient Freight Transportation Across Asia</h3>
 
 <p>
-  We provide seamless transportation services connecting major cities, industrial centers, ports, and trade routes across Asia. Every shipment is carefully coordinated to ensure secure handling, efficient transit, and timely delivery.
+  We provide seamless transportation services connecting major cities, industrial centers, ports, and trade routes across 
+  Asia. Every shipment is carefully coordinated to ensure secure handling, efficient transit, and timely delivery.
 </p>
       </section>
 
@@ -49,7 +56,8 @@ function RouteAsia() {
         <img src="/images/plane-icon.png"alt="Air Transport"className="transport-icon"/>
   <h3>Air Transport in Asia</h3>
   <p>
-    Express air freight services connecting major cities and commercial hubs across Asia, with secure handling and prompt delivery for every shipment.
+    Express air freight services connecting major cities and commercial hubs across Asia, with secure handling and prompt 
+    delivery for every shipment.
   </p>
 </div>
 
@@ -57,7 +65,8 @@ function RouteAsia() {
   <img src="/images/truck-icon.png" alt="Land Transport" className="transport-icon" />
   <h3>Land Transport in Asia</h3>
   <p>
-    Efficient road freight solutions connecting businesses across Asia through well-established transport routes, ensuring safe and timely cargo delivery.
+    Efficient road freight solutions connecting businesses across Asia through well-established transport routes, ensuring 
+    safe and timely cargo delivery.
   </p>
 </div>
 
@@ -65,31 +74,14 @@ function RouteAsia() {
   <img src="/images/ship-icon.png" alt="Sea Transport" className="transport-icon" />
   <h3>Sea Transport in Asia</h3>
   <p>
-    Comprehensive sea freight services through Asia's leading ports, providing efficient cargo movement, secure handling, and dependable shipping solutions.
+    Comprehensive sea freight services through Asia's leading ports, providing efficient cargo movement, secure handling, 
+    and dependable shipping solutions.
   </p>
 </div>
     </div>
 
   </div>
 </section>
-
-<section className="gallery">
-
-  <div className="box left">
-    <img src="/images/land1.png" alt="" />
-  </div>
-
-  <div className="box center">
-    <img src="/images/land3.png" alt="" />
-  </div>
-
-  <div className="box right">
-    <img src="/images/land2.png" alt="" />
-  </div>
-
-</section>
-
-
 
     </main>
   );

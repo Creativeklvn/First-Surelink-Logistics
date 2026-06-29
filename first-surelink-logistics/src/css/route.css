@@ -33,7 +33,7 @@ background-repeat: no-repeat;
 .page-asia {
 background:
   linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
-  url("/images/cargo2.png");
+  url("/images/asia.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -56,11 +56,11 @@ background-repeat: no-repeat;
   text-align: left;
 }
 
-/* Fright Sea*/
-.page-sea {
+/* europe */
+.page-europe {
 background:
   linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
-  url("/images/seafreight.png");
+  url("/images/europe.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -71,14 +71,14 @@ background-repeat: no-repeat;
   padding: 0 7% 45px;
 }
 
-.page-sea h1 {
+.page-europe h1 {
   font-size: 55px;
   font-weight: 600;
   margin-bottom: 20px;
   text-align: left;
 }
 
-.page-sea p {
+.page-europe p {
   font-size: 18px;
   text-align: left;
 }
@@ -88,7 +88,66 @@ background-repeat: no-repeat;
   background: #e00000;
 }
 
+/* northamerica */
+.page-northamerica {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/northamerica.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
 
+.page-northamerica h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-northamerica p {
+  font-size: 18px;
+  text-align: left;
+}
+
+
+/* southamerica */
+.page-southamerica {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/southamerica.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-southamerica h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-southamerica p {
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.red-bar {
+  height: 20px;
+  background: #e00000;
+}
 
 .page-content {
   padding: 100px 7%;

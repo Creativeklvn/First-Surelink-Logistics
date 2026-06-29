@@ -13,7 +13,7 @@ function Header() {
 
   <nav className="nav">
     
-    <Link to="/Home" className="nav-link active">
+    <Link to="/Home" className="nav-link">
       Home
     </Link>
 
