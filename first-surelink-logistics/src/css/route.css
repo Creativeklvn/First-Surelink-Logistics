@@ -1,0 +1,254 @@
+
+.page {
+  width: 100%;
+}
+/* Africa*/
+.page-africa {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/africa.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-africa h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-africa p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Asia*/
+.page-asia {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/cargo2.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-asia h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-asia p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Fright Sea*/
+.page-sea {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/seafreight.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-sea h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-sea p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.red-bar {
+  height: 20px;
+  background: #e00000;
+}
+
+
+
+.page-content {
+  padding: 100px 7%;
+  max-width: 100%;
+  background-color: #ffffff;
+   margin-bottom: -95px;
+}
+
+.page-content h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  color: #000;
+  text-align: left;
+}
+  .page-content h3 {
+font-size: 24px;
+line-height: 1.2;
+  margin-bottom: 10px;
+  color: #e00000;
+  text-align: left;
+  }
+
+.page-content p {
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+
+  .page-hero h1 {
+    font-size: 42px;
+  }
+
+  .page-hero p {
+    font-size: 18px;
+  }
+
+  .red-bar {
+    height: 45px;
+  }
+
+  .page-content {
+    padding: 60px 6%;
+  }
+
+  .page-content h2 {
+    font-size: 30px;
+  }
+
+
+  .page-content p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+.air {
+  padding: 20px 0;
+  background: #ffffff;
+}
+
+
+.air-solutions{
+    width:90%;
+    margin:80px auto;
+}
+
+.air-header{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 60px;
+}
+
+.air-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.air-card{
+    flex:1 1 280px;
+    background:#fff;
+    border-radius:12px;
+    padding:35px;
+    border:1px solid #e6e6e6;
+    transition:all .3s ease;
+}
+
+.air-card:hover{
+    background:#06265a;
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.air-card h3{
+    color:#06265a;
+    margin-bottom:15px;
+    font-size:24px;
+    transition:color .3s ease;
+}
+
+.air-card p{
+  font-size: 16px;
+    color:#000;
+    line-height:1.8;
+    transition:color .3s ease;
+}
+
+.air-card:hover h3,
+.air-card:hover p{
+    color:#fff;
+}
+
+.transport-icon {
+  width: 50px;      /* Adjust size */
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.gallery{
+    display:flex;
+    width:100%;
+    height:300px;
+}
+
+.box{
+    flex:1;
+    overflow:hidden;
+}
+
+.box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Center */
+.center{
+    clip-path:polygon(15% 0,85% 0,100% 50%,85% 100%,15% 100%,0 50%);
+    margin-left:-70px;
+    margin-right:-70px;
+    z-index:2;
+}
+
+
+
+

@@ -49,11 +49,11 @@ function Footer() {
 <FooterLinks
   title="Route"
   items={[
-    { label: "Africa", link: "/africa" },
-    { label: "Europe", link: "/europe" },
-    { label: "Asia", link: "/asia" },
-    { label: "North America", link: "/north-america" },
-    { label: "South America", link: "/south-america" },
+    { label: "Africa", link: "/route-africa" },
+    { label: "Europe", link: "/route-europe" },
+    { label: "Asia", link: "/route-asia" },
+    { label: "North America", link: "/route-northamerica" },
+    { label: "South America", link: "/route-southamerica" },
   ]}
 />
 
