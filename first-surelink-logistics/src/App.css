@@ -168,8 +168,7 @@ body {
   color: #000000;
 }
 
-.tracking-box button,
-.red-section button {
+.tracking-box button{
   background: #e00000;
   color: white;
   border: none;
@@ -177,6 +176,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
 /* Service Section */
 .core h2{
   background-color: #ffffff;
@@ -203,7 +203,7 @@ margin: 0;
 
 .service img {
   width: 100%;
-  height: 260px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -219,16 +219,21 @@ margin: 0;
   margin-bottom: 25px;
     text-align: left;
 }
-.service button {
+
+.service-btn {
+  display: inline-block;
   background: #e00000;
   color: white;
-  border-radius: 10px;
-  border: none;
+  text-decoration: none;
   padding: 14px 28px;
-  font-weight: bold;
-  cursor: pointer;
+    font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
 }
 
+.service-btn:hover {
+  background: #b80000;
+}
 /* Features Section */
 
 .features {
@@ -352,37 +357,50 @@ margin: 0;
 }
 
 /* Realiable Tracking Section */
-.red-section {
-  background: #e00000;
-  color: white;
-  padding: 100px 50px;
+.reliable {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
   align-items: center;
-    text-align: left;
+  padding: 80px 50px;
+  text-align: left;
+  background-color: #ffffff;
 }
 
-.red-section h2 {
+.reliable.red {
+  background: #e00000;
+}
+
+.reliable img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reliable h2 {
   font-size: 45px;
   margin-bottom: 25px;
+  color: #ffffff;
+  text-align: left;
 }
-.red-section p {
-  max-width: 700px;
+
+.reliable p {
   line-height: 1.5;
-  margin: 25px 0;
+  margin-bottom: 25px;
+    text-align: left;
+    color: #ffffff;
 }
-
-.red-section button {
+.reliable button {
   background: #06265a;
+  color: white;
   border-radius: 10px;
-  
+  border: none;
+  padding: 14px 28px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.big-icon {
-  font-size: 100px;
-  text-align: center;
-}
-
+/* Realiable Tracking Section */
 .container{
   padding: 0 20px;
   margin-top: -100px;
@@ -440,6 +458,10 @@ width: 70%;
   text-align: left;
 }
 
+.footer h2{
+  font-size: 30px;
+  font-weight: 600;
+}
 .footer-logo img{
     width: 70px;
 }
@@ -450,21 +472,35 @@ width: 70%;
 
 .contact-item {
   display: flex;
-  align-items: center;
+    align-items: flex-start;
   gap: 12px;
 }
 
 .contact-icon {
   width: 20px;
   height: 20px;
-  object-fit: contain;
+
+   margin-top: 4px;
+  flex-shrink: 0;
 }
 
-.contact-item span {
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact-text a,
+.contact-item > a {
   color: white;
+  text-decoration: none;
   font-size: 14px;
-  line-height: 1.5;
-  margin: 5px 0;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.contact-text a:hover,
+.contact-item > a:hover {
+  color: #e00000;
 }
 
 .footer h3 {
@@ -547,7 +583,6 @@ width: 70%;
   }
 
   .service,
-  .red-section,
   .smart-grid,
   .features,
   .footer {
@@ -579,3 +614,7 @@ width: 70%;
     display: block;
   }
 }
+
+
+
+/*SEA FRIGHT PAGE*/
