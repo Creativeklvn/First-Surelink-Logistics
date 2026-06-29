@@ -1,0 +1,183 @@
+
+.page {
+  width: 100%;
+}
+/* Freight Land*/
+.page-land {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/truck.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-land h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-land p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Fright Air*/
+.page-air {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/cargo2.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-air h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-air p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Fright Sea*/
+.page-sea {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/seafreight.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-sea h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-sea p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.red-bar {
+  height: 20px;
+  background: #e00000;
+}
+
+.page-content {
+  padding: 100px 7%;
+  max-width: 100%;
+  background-color: #ffffff;
+}
+
+.page-content h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  color: #000;
+  text-align: left;
+}
+  .page-content h3 {
+font-size: 24px;
+line-height: 1.2;
+  margin-bottom: 10px;
+  color: #e00000;
+  text-align: left;
+  }
+
+.page-content p {
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+
+  .page-hero h1 {
+    font-size: 42px;
+  }
+
+  .page-hero p {
+    font-size: 18px;
+  }
+
+  .red-bar {
+    height: 45px;
+  }
+
+  .page-content {
+    padding: 60px 6%;
+  }
+
+  .page-content h2 {
+    font-size: 30px;
+  }
+
+
+  .page-content p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+.gallery{
+    display:flex;
+    width:100%;
+    height:300px;
+}
+
+.box{
+    flex:1;
+    overflow:hidden;
+}
+
+.box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Center */
+.center{
+    clip-path:polygon(15% 0,85% 0,100% 50%,85% 100%,15% 100%,0 50%);
+    margin-left:-70px;
+    margin-right:-70px;
+    z-index:2;
+}
+
+
+
+

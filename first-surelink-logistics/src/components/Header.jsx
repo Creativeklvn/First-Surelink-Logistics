@@ -13,7 +13,7 @@ function Header() {
 
   <nav className="nav">
     
-    <Link to="/Home.jsx" className="nav-link active">
+    <Link to="/Home" className="nav-link active">
       Home
     </Link>
 
@@ -28,10 +28,10 @@ function Header() {
         <Link to="/seafreight" className="dropdown-link">
           Sea Freight
         </Link>
-        <Link to="/land-freight" className="dropdown-link">
+        <Link to="/landfreight" className="dropdown-link">
           Land Freight
         </Link>
-        <Link to="/air-freight" className="dropdown-link">
+        <Link to="/airfreight" className="dropdown-link">
           Air Freight
         </Link>
         <Link to="/warehousing" className="dropdown-link">
@@ -69,11 +69,11 @@ function Header() {
 </header>
 
     <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
-      <Link className="mobile-item" to="/">Home</Link>
+      <Link className="mobile-item" to="/Home">Home</Link>
       <Link className="mobile-item" to="/tracking">Tracking</Link>
       <Link className="mobile-item" to="/seafreight">Sea Freight</Link>
-      <Link className="mobile-item" to="/land-freight">Land Freight</Link>
-      <Link className="mobile-item" to="/air-freight">Air Freight</Link>
+      <Link className="mobile-item" to="/landfreight">Land Freight</Link>
+      <Link className="mobile-item" to="/airfreight">Air Freight</Link>
       <Link className="mobile-item" to="/warehousing">Warehousing</Link>
       <Link className="mobile-item" to="/customs-clearing">Customs Clearing</Link>
       <Link className="mobile-item" to="/about">About Us</Link>

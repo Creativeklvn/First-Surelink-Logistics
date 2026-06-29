@@ -1,9 +1,9 @@
-import "../css/seafreight.css";
+import "../css/freight.css";
 
 function SeaFreight() {
   return (
     <main className="page">
-      <section className="page-hero">
+      <section className="page-sea">
         <div className="page-hero-content">
           <h1>Sea Freight</h1>
           <p>Speed, security, and reliability.</p>
@@ -14,61 +14,94 @@ function SeaFreight() {
 
       <section className="page-content">
         <h2>
-          Air cargo transportation is a fast and safe method of transportation.
+          Connecting the World by Sea
         </h2>
 
         <p>
-        At First Sure Link Logistics, we understand that speed is critical when it 
-        comes to global trade. Our air freight services provide a fast, secure, and 
-        reliable solution for time-sensitive shipments, ensuring your cargo reaches 
-        its destination safely and on schedule.
+        First Sure Link Logistics provides reliable, cost-effective, and efficient 
+        sea freight solutions for businesses and individuals shipping cargo across the 
+        globe. Whether you're moving full container loads (FCL), less-than-container loads 
+        (LCL), commercial goods, vehicles, heavy equipment, or personal effects, we ensure 
+        your shipments are handled with care from origin to destination.
         </p>
 
         <p>
-      Whether you're importing or exporting commercial goods, personal effects,
-       high-value cargo, or urgent shipments, we offer tailored air freight solutions 
-       designed to meet your unique logistics needs. Through our strong partnerships with 
-       leading international airlines and a trusted global network, we provide flexible routing, 
-       competitive rates, and efficient transit times to destinations across Asia, Africa, Europe, 
-       North America, South America, and beyond.
+        Our extensive network of shipping partners and major ports enables us to provide seamless 
+        import and export services across Asia, Africa, Europe, North America, South America, and beyond. 
+        Every shipment is managed with precision, ensuring secure handling, competitive transit times, and 
+        dependable delivery.
         </p>
 
         <p>
-        From cargo collection and customs clearance to real-time shipment tracking and final delivery,
-         our experienced logistics team manages every stage of the shipping process with precision and 
-         professionalism. With First Sure Link Logistics, you can trust that your cargo is handled with 
-         the highest level of care, giving you complete peace of mind from origin to destination.
+        From cargo booking and customs clearance to documentation, container tracking, and final delivery, our 
+        experienced logistics professionals oversee every stage of the shipping process. With First Sure Link Logistics, 
+        you benefit from transparent communication, real-time shipment visibility, and logistics solutions tailored to your business needs.
         </p>
-        <h3>Global Air Freight Solutions</h3>
+                <h3>Extensive Global Port Coverage</h3>
 <p>
-  At First Sure Link Logistics, we provide fast, reliable, and secure air freight services tailored to meet your shipping needs. Whether you're transporting commercial cargo, personal belongings, or time-sensitive shipments, our global network ensures efficient delivery to destinations worldwide.
+  First Sure Link Logistics connects businesses and individuals to major ports
+  worldwide through our trusted network of international shipping partners. We
+  provide reliable import and export sea freight services that ensure your cargo
+  reaches its destination safely, efficiently, and on schedule.
 </p>
 
-<h3>Worldwide Coverage</h3>
+<h3>Flexible Ocean Freight Options</h3>
 <p>
-  With a trusted network of airline partners, we offer seamless import and export services across Asia, Africa, Europe, North America, South America, and beyond. No matter the destination, we deliver your cargo safely and on schedule.
+  Whether you're shipping a Full Container Load (FCL) or a Less-than-Container
+  Load (LCL), we offer flexible sea freight solutions tailored to your cargo
+  size, delivery timeline, and budget. Our services are designed to maximize
+  efficiency while keeping shipping costs competitive.
 </p>
 
-<h3>Real-Time Shipment Tracking</h3>
+<h3>Customs Clearance & Trade Compliance</h3>
 <p>
-  Stay informed throughout your shipment's journey with real-time tracking and timely status updates. Our tracking solutions provide complete visibility, giving you confidence and peace of mind from pickup to final delivery.
+  Our experienced logistics professionals manage customs clearance, import and
+  export documentation, and regulatory requirements, ensuring your shipments
+  move smoothly through international borders with minimal delays.
 </p>
 
-<h3>Customs Clearance & Documentation</h3>
+<h3>End-to-End Shipment Visibility</h3>
 <p>
-  Our experienced team manages customs clearance, import and export documentation, and regulatory compliance to ensure your shipments move efficiently through every stage of the logistics process with minimal delays.
+  Stay connected to your cargo throughout its journey with real-time shipment
+  tracking and timely status updates. Our tracking solutions provide complete
+  visibility, giving you confidence from departure to final delivery.
 </p>
 
-<h3>Secure Cargo Handling</h3>
+<h3>Safe & Reliable Cargo Transportation</h3>
 <p>
-  Every shipment is handled with the highest level of care. From collection and packaging to transportation and final delivery, we prioritize the safety, security, and integrity of your cargo.
+  Every shipment is handled with the highest standards of care and
+  professionalism. From container loading and ocean transit to final delivery,
+  we prioritize the safety, security, and integrity of your cargo.
 </p>
 
 <h3>Dedicated Logistics Support</h3>
 <p>
-  Our logistics professionals are committed to delivering exceptional customer service and tailored shipping solutions. Whether your shipment is urgent or routine, we work closely with you to ensure a smooth, reliable, and cost-effective air freight experience.
+  Our dedicated logistics team works closely with you to coordinate every stage
+  of your shipment. We provide responsive customer support, proactive
+  communication, and tailored shipping solutions to ensure a seamless sea
+  freight experience.
 </p>
+
       </section>
+
+<section className="gallery">
+
+  <div className="box left">
+    <img src="/images/cargo.png" alt="" />
+  </div>
+
+  <div className="box center">
+    <img src="/images/cargo2.png" alt="" />
+  </div>
+
+  <div className="box right">
+    <img src="/images/cargo3.png" alt="" />
+  </div>
+
+</section>
+
+
+
     </main>
   );
 }

@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import SeaFreight from "./pages/SeaFreight";
+import Airreight from "./pages/AirFreight";
+import AirFreight from "./pages/AirFreight";
 
 
 function App() {
@@ -14,7 +16,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sea-freight" element={<SeaFreight />} />
+        <Route path="/seafreight" element={<SeaFreight />} />
+        <Route path="/airfreight" element={<AirFreight />} />
+        <Route path="/Home" element={<Home />} />
+
       </Routes>
 
       <Footer />
