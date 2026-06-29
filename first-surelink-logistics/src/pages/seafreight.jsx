@@ -87,15 +87,15 @@ function SeaFreight() {
 <section className="gallery">
 
   <div className="box left">
-    <img src="/images/cargo.png" alt="" />
+    <img src="/images/ship2.png" alt="" />
   </div>
 
   <div className="box center">
-    <img src="/images/cargo2.png" alt="" />
+    <img src="/images/ship1.png" alt="" />
   </div>
 
   <div className="box right">
-    <img src="/images/cargo3.png" alt="" />
+    <img src="/images/ship3.png" alt="" />
   </div>
 
 </section>

@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import SeaFreight from "./pages/SeaFreight";
-import Airreight from "./pages/AirFreight";
 import AirFreight from "./pages/AirFreight";
+import LandFreight from "./pages/LandFreight";
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/seafreight" element={<SeaFreight />} />
         <Route path="/airfreight" element={<AirFreight />} />
+        <Route path="/landfreight" element={<LandFreight />} />
         <Route path="/Home" element={<Home />} />
 
       </Routes>
