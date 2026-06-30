@@ -191,14 +191,23 @@ function Home() {
     </div>
     </section>
 
+<section className="flow-section">
+<div className="flow-sectio">
+  <div className="flow-heading">
+     <h3>Capability</h3>
+    <h2>Making Global Logistics Simple</h2>
+  </div>
 
-      <section className="tagline">
-        <h2>Wherever Life Takes You, First Sure Link Delivers</h2>
-        <p>
-          Let First Sure Link Logistics handle your shipping and logistics while
-          you focus on what matters most.
-        </p>
-      </section>
+  <div className="flow-content">
+    <p>
+      We simplify the movement of goods by combining industry expertise, smart
+      planning, and dependable execution. Our focus is on helping businesses
+      and individuals move cargo efficiently while delivering solutions that
+      support growth and long-term success.
+    </p>
+  </div>
+  </div>
+</section>
     </>
   );
 }

@@ -20,6 +20,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  font-size: 15px;
 }
 
 .nav-link,
@@ -149,6 +150,8 @@ body {
 
 .tracking h2{
   text-align: left;
+   margin-bottom: 20px;
+   font-weight: 600;
 }
 
 .tracking p {
@@ -175,6 +178,10 @@ body {
   padding: 14px 28px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.tracking-box :hover {
+  background: #ad0000;
 }
 
 /* Service Section */
@@ -232,8 +239,9 @@ margin: 0;
 }
 
 .service-btn:hover {
-  background: #b80000;
+  background: #ad0000;
 }
+
 /* Features Section */
 
 .features {
@@ -344,17 +352,7 @@ margin: 0;
   margin-bottom: 20px;
 }
 
-.tagline {
-  text-align: center;
-  background: #ddd;
-  padding: 60px 20px;
-}
 
-.tagline h2 {
-  margin-bottom: 20px;
-  font-weight: 500;
-  
-}
 
 /* Realiable Tracking Section */
 .reliable {
@@ -379,6 +377,7 @@ margin: 0;
 
 .reliable h2 {
   font-size: 45px;
+  font-weight: 600;
   margin-bottom: 25px;
   color: #ffffff;
   text-align: left;
@@ -398,6 +397,10 @@ margin: 0;
   padding: 14px 28px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.reliable button:hover {
+  background: #002d76;
 }
 
 /* Realiable Tracking Section */
@@ -446,6 +449,85 @@ width: 70%;
 
 .info-card p {
   line-height: 1.5;
+}
+
+/* capability */
+.flow-section {
+   padding: 100px 50px;
+  background: #ffffff;
+}
+.flow-sectio {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 100px 5%;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+.flow-heading {
+  flex: 1;
+}
+
+.flow-heading h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #e00000;
+  font-weight: 700;
+   text-align: left;
+}
+
+.flow-heading h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #06265a;
+  font-weight: 700;
+   text-align: left;
+}
+
+.flow-content {
+  flex: 1;
+}
+
+.flow-content p {
+  line-height: 1.9;
+  color: #555;
+  text-align: left;
+  
+}
+/*capability mobile*/
+@media (max-width: 768px) {
+  .flow-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 60px 6%;
+  }
+
+  .flow-heading,
+  .flow-content {
+    flex: 1;
+    width: 100%;
+  }
+
+  .flow-heading h3 {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .flow-heading h2 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  .flow-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: left;
+  }
 }
 
 .footer {
