@@ -83,6 +83,33 @@ background-repeat: no-repeat;
   text-align: left;
 }
 
+/* About Us*/
+.page-about {
+background:
+  linear-gradient(rgb(0, 43, 111), rgba(0, 7, 62, 0.962))
+  ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-about h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-about p {
+  font-size: 18px;
+  text-align: left;
+}
+
 .red-bar {
   height: 20px;
   background: #e00000;
@@ -98,7 +125,7 @@ background-repeat: no-repeat;
   font-size: 44px;
   line-height: 1.2;
   margin-bottom: 35px;
-  color: #000;
+  color: #000000;
   text-align: left;
 }
   .page-content h3 {

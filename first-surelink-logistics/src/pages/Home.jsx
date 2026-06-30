@@ -60,7 +60,7 @@ function Home() {
             We deliver dependable and cost-effective sea freight solutions that
             connect businesses and individuals to major ports across the globe.
           </p>
-          <Link to="/sea-freight" className="service-btn">
+          <Link to="/seafreight" className="service-btn">
   Sea Freight Services
 </Link>
         </div>
@@ -75,7 +75,7 @@ function Home() {
             We provide reliable and efficient road transportation services for
             businesses and individuals.
           </p>
-                    <Link to="/sea-freight" className="service-btn">
+                    <Link to="/landfreight" className="service-btn">
   Land Freight Services
 </Link>
         </div>
@@ -88,7 +88,7 @@ function Home() {
             First Sure Link Logistics provides fast, reliable, and efficient air
             freight services for businesses and individuals.
           </p>
-                    <Link to="/sea-freight" className="service-btn">
+                    <Link to="/airfreight" className="service-btn">
   Air Freight Services
 </Link>
         </div>

@@ -47,17 +47,17 @@ function Header() {
       <span className="nav-link">Company ▾</span>
 
       <div className="dropdown-menu">
-        <Link to="/about" className="dropdown-link">
+        <Link to="/about-us" className="dropdown-link">
           About Us
         </Link>
         <Link to="/team" className="dropdown-link">
           Our Team
         </Link>
-        <Link to="/careers" className="dropdown-link">
-          Careers
+        <Link to="/global-reach" className="dropdown-link">
+          Global Reach
         </Link>
-        <Link to="/news" className="dropdown-link">
-          News & Updates
+        <Link to="/why-choose-us" className="dropdown-link">
+          Why Choose Us
         </Link>
       </div>
     </div>
@@ -76,7 +76,7 @@ function Header() {
       <Link className="mobile-item" to="/airfreight">Air Freight</Link>
       <Link className="mobile-item" to="/warehousing">Warehousing</Link>
       <Link className="mobile-item" to="/customs-clearing">Customs Clearing</Link>
-      <Link className="mobile-item" to="/about">About Us</Link>
+      <Link className="mobile-item" to="/about-us">About Us</Link>
       <Link className="mobile-item" to="/contact">Contact</Link>
     </div>
     </>

@@ -14,6 +14,10 @@ import RouteNorthAmerica from "./pages/route-northAmerica";
 import RouteSouthAmerica from "./pages/route-southAmerica";
 import RouteEurope from "./pages/route-europe";
 
+import AboutUs from "./pages/about-us";
+import GlobalReach from "./pages/global-reach";
+import WhyChooseUs from "./pages/why-choose-us";
+
 
 function App() {
   return (
@@ -31,6 +35,12 @@ function App() {
         <Route path="/route-northamerica" element={<RouteNorthAmerica />} />
         <Route path="/route-southamerica" element={<RouteSouthAmerica />} />
         <Route path="/route-europe" element={<RouteEurope />} />
+
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/global-reach" element={<GlobalReach />} />
+        <Route path="/why-choose-us" element={<WhyChooseUs />} />
+        
+        
 
         <Route path="/Home" element={<Home />} />
 
