@@ -224,6 +224,13 @@ line-height: 1.2;
     font-size: 3rem;
   }
 
+    .page-hero-content p {
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: lighter;
+    color: #d8d8d8;
+  }
+
   .page-hero p {
     font-size: 18px;
   }
@@ -241,10 +248,15 @@ line-height: 1.2;
     font-size: 30px;
   }
 
+      .page-content h3 {
+    font-size: 20px;
+    font-weight: 200;
+  }
 
   .page-content p {
     font-size: 16px;
-    color: #c00000;
+    color: #2c2c2c;
+    text-align: left;
   }
 }
 
