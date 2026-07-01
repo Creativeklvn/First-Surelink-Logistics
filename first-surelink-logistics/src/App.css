@@ -180,7 +180,7 @@ body {
   cursor: pointer;
 }
 
-.tracking-box :hover {
+.tracking-box button:hover {
   background: #ad0000;
 }
 

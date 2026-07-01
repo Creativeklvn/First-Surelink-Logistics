@@ -17,6 +17,9 @@ import RouteEurope from "./pages/route-europe";
 import AboutUs from "./pages/about-us";
 import GlobalReach from "./pages/global-reach";
 import WhyChooseUs from "./pages/why-choose-us";
+import Contact from "./pages/contact";
+
+import Tracking from "./pages/tracking";
 
 
 function App() {
@@ -39,6 +42,9 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/global-reach" element={<GlobalReach />} />
         <Route path="/why-choose-us" element={<WhyChooseUs />} />
+        <Route path="/contact" element={<Contact />} />
+
+        <Route path="/tracking" element={<Tracking />} />
         
         
 
