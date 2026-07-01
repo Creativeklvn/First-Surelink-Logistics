@@ -294,6 +294,10 @@ margin: 0;
 }
 
 .continent-video {
+  background-image: url("/video/video.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   grid-column: 1 / -1;
   aspect-ratio: 26 / 10; /* Maintains the aspect ratio */
@@ -312,13 +316,13 @@ margin: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border: none;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.468);
   color: #06265a;
-  font-size: 32px;
+  font-size: 22px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -408,9 +412,28 @@ margin: 0;
 @media (max-width: 768px) {
  .reliable {
   padding: 85px 6%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0.1fr;
+    gap: 50px;
 } 
-  
+  .reliable img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+.reliable-btn {
+  display: inline-block;
+  background: #06265a;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+    font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.reliable-btn:hover {
+  background: #002d76;
+}
 }
 
 /*smart section*/
@@ -431,6 +454,7 @@ width: 70%;
   height: 60px;
   object-fit: contain;
   margin-bottom: 20px;
+  
 }
 
 .smart-logistics {
@@ -628,6 +652,8 @@ width: 70%;
     padding: 50px 6%;
   }
 
+
+
   /* Company section takes full width */
   .footer > div:first-child {
     flex: 0 0 100%;
@@ -636,11 +662,11 @@ width: 70%;
 
   /* Remaining sections appear in 2 columns */
   .footer > div:not(:first-child) {
-    flex: 0 0 calc(20% - 10px);
+    flex: 0 0 calc(40% - 10px);
   }
 
   .footer h2 {
-    font-size: 24px;
+    font-size: 34px;
     margin: 12px 0;
   }
 
@@ -650,7 +676,7 @@ width: 70%;
 
   .footer h3 {
     margin: 0 0 15px;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .contact-info {
@@ -665,6 +691,7 @@ width: 70%;
   .footer-link {
     display: block;
     margin-bottom: 10px;
+    font-size: 14px;
   }
 }
 
@@ -769,30 +796,63 @@ display: flex;
   }
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+  }
+
+    .hero p {
+    font-size: 16px;
   }
 
   .tracking {
     padding: 60px 6%;
   }
 
+  .core h2{
+  background-color: #ffffff;
+    padding: 80px 10px;
+      font-size: 35px;
+      padding-bottom: 0px;
+margin: 0;
+  color: #06265a;
+  font-weight: bold;
+}
+
+.continent-header h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
   
 .smart{
   padding: 85px 6%;
+  
 }
+ .smart-logistics h2 {
+    font-size: 30px;
+    grid-template-columns: 1fr;  
+  }
+
+  .smart-logistics{
+  padding: 100px 5%;
+  }
+
+  .smart-grid {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+    text-align: center;
+  }
 
 .container{
   padding: 0 20px;
-  margin-top: -87px;
+  margin-top: -86px;
+  
 }
 
 .container img{
-width: 100%;
+width: 110%;
 }
-  .smart-grid {
-    grid-template-columns: 1fr;
-  }
-
 
   .service {
     padding: 45px 6%;
@@ -807,15 +867,20 @@ width: 100%;
     order: -1; /* Moves the image above the text */
     width: 100%;
   }
-  .smart-logistics h2 {
-    font-size: 28px;
-    grid-template-columns: 1fr;
+  .service p {
+  font-size: 1rem;
   }
+ 
 
     .features {
     padding: 100px 6%;
     grid-template-columns: 1fr;
     margin-bottom: -90px;
+  }
+
+  .features p{
+    font-size: 14px;
+    margin-top: 20px;
   }
 
   .continent-section{

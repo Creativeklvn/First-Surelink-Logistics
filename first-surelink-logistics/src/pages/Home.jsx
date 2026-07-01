@@ -143,7 +143,8 @@ function Home() {
             Logistics. Our intelligent tracking platform gives you real-time
             visibility, shipment updates, document access, and delivery insights.
           </p>
-          <button>Track made easy</button>
+           <Link to="/tracking" className="reliable-btn">
+  Track made easy</Link>
         </div>
         <img src="/images/map.png" alt="Air freight" />
       </section>

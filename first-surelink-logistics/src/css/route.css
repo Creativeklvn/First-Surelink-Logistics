@@ -230,13 +230,64 @@ line-height: 1.2;
 }
 
 @media (max-width: 768px) {
+    .page-global {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-about {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-air {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-contact {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-land {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-africa {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-asia {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-europe {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-northamerica {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-southamerica {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+      .page-sea {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+    .page-tracking {
+    height: 250px;
+    padding: 0 6% 35px;
+  }
+  
+
   .page-hero {
     height: 250px;
     padding: 0 6% 35px;
   }
 
-  .page-hero h1 {
-    font-size: 42px;
+  .page-hero-content h1 {
+    font-size: 3rem;
+    line-height: 100%;
   }
 
   .page-hero p {
