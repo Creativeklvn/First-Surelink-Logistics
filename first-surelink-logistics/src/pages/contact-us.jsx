@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "../css/freight.css";
 
-function Contact() {
+function ContactUs() {
   return (
     <main className="page">
-      <section className="page-tracking">
+      <section className="page-contact">
         <div className="page-hero-content">
-          <h1>Contact</h1>
+          <h1>Contact Us</h1>
           <p>For further information regarding our services, 
             for booking enquires or to receive a quick-response quotation, please see our contact details below.</p>
         </div>
@@ -107,31 +107,9 @@ function Contact() {
 
 </section>
 
-      <section className="page-tra">
-        
-      </section>
-
-<section className="support-section">
-  <div className="support-content">
-    <h2>Need Additional Help?</h2>
-
-    <p className="support-subtitle">
-      Explore our support resources and find the assistance you need.
-    </p>
-
-    <p className="support-text">
-      Access our self-service support, get in touch with our customer support team for personalized
-      assistance.
-    </p>
-
-    <Link to="/contact" className="support-btn">
-      Get Support
-    </Link>
-  </div>
-</section>
 
     </main>
   );
 }
 
-export default Contact;
+export default ContactUs;

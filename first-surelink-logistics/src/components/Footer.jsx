@@ -67,6 +67,14 @@ function Footer() {
     { label: "Privacy Policy", link: "/privacy-policy" },
     { label: "Terms and Conditions", link: "/terms-and-conditions" },
   ]}
+/> 
+
+<FooterLinks
+  title="Legal"
+  items={[
+    { label: "Privacy Policy", link: "/privacy-policy" },
+    { label: "Terms and Conditions", link: "/terms-and-conditions" },
+  ]}
 /> </footer>
 
   );
