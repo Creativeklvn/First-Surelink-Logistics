@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
+
 function Header() {
    const [menuOpen, setMenuOpen] = useState(false);
-
+  const [servicesOpen, setServicesOpen] = useState(false);
+const [companyOpen, setCompanyOpen] = useState(false);
   return (
     <>
 <header className="header">
@@ -25,13 +28,13 @@ function Header() {
       <span className="nav-link">Services ▾</span>
 
       <div className="dropdown-menu">
-        <Link to="/seafreight" className="dropdown-link">
+        <Link to="/sea-freight" className="dropdown-link">
           Sea Freight
         </Link>
-        <Link to="/landfreight" className="dropdown-link">
+        <Link to="/land-freight" className="dropdown-link">
           Land Freight
         </Link>
-        <Link to="/airfreight" className="dropdown-link">
+        <Link to="/air-freight" className="dropdown-link">
           Air Freight
         </Link>
         <Link to="/warehousing" className="dropdown-link">
@@ -69,16 +72,47 @@ function Header() {
 </header>
 
     <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
-      <Link className="mobile-item" to="/Home">Home</Link>
-      <Link className="mobile-item" to="/tracking">Tracking</Link>
-      <Link className="mobile-item" to="/seafreight">Sea Freight</Link>
-      <Link className="mobile-item" to="/landfreight">Land Freight</Link>
-      <Link className="mobile-item" to="/airfreight">Air Freight</Link>
-      <Link className="mobile-item" to="/warehousing">Warehousing</Link>
-      <Link className="mobile-item" to="/customs-clearing">Customs Clearing</Link>
-      <Link className="mobile-item" to="/about-us">About Us</Link>
-      <Link className="mobile-item" to="/contact">Contact</Link>
-    </div>
+  <Link className="mobile-item" to="/home">Home</Link>
+  <Link className="mobile-item" to="/tracking">Tracking</Link>
+
+  <div className="mobile-dropdown">
+    <button
+      className="mobile-item dropdown-btn"
+      onClick={() => setServicesOpen(!servicesOpen)}
+    >
+      <span>Services</span>
+      <span className={`arrow ${servicesOpen ? "open" : ""}`}>&gt;</span>
+    </button>
+
+    {servicesOpen && (
+      <div className="dropdown-content">
+        <Link to="/air-freight">Air Freight</Link>
+        <Link to="/sea-freight">Sea Freight</Link>
+        <Link to="/land-freight">Land Freight</Link>
+      </div>
+    )}
+  </div>
+
+  <div className="mobile-dropdown">
+    <button
+      className="mobile-item dropdown-btn"
+      onClick={() => setCompanyOpen(!companyOpen)}
+    >
+      <span>Company</span>
+      <span className={`arrow ${companyOpen ? "open" : ""}`}>&gt;</span>
+    </button>
+
+    {companyOpen && (
+      <div className="dropdown-content">
+        <Link to="/about-us">About Us</Link>
+        <Link to="/global-reach">Global Reach</Link>
+      </div>
+    )}
+  </div>
+
+  <Link className="mobile-item" to="/about-us">About Us</Link>
+  <Link className="mobile-item" to="/contact">Contact</Link>
+</div>
     </>
   );
 }

@@ -354,7 +354,7 @@ margin: 0;
 
 
 
-/* Realiable Tracking Section */
+/* Reliable Tracking Section */
 .reliable {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -403,7 +403,17 @@ margin: 0;
   background: #002d76;
 }
 
-/* Realiable Tracking Section */
+
+
+@media (max-width: 768px) {
+ .reliable {
+  padding: 85px 6%;
+  grid-template-columns: 1fr 1fr;
+} 
+  
+}
+
+/*smart section*/
 .container{
   padding: 0 20px;
   margin-top: -100px;
@@ -411,6 +421,7 @@ margin: 0;
 .container img{
 width: 70%;
 }
+
 .smart {
   background: #ffffff;
   padding: 100px 50px;
@@ -498,7 +509,11 @@ width: 70%;
 }
 /*capability mobile*/
 @media (max-width: 768px) {
-  .flow-section {
+  .flow-section{
+     padding: 45px 6%;
+  }
+  
+  .flow-sectio {
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
@@ -603,7 +618,58 @@ width: 70%;
   color: #e00000; /* or any hover color you prefer */
 }
 
+/* footer mobile */
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 6%;
+  }
 
+  /* Company section takes full width */
+  .footer > div:first-child {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Remaining sections appear in 2 columns */
+  .footer > div:not(:first-child) {
+    flex: 0 0 calc(20% - 10px);
+  }
+
+  .footer h2 {
+    font-size: 24px;
+    margin: 12px 0;
+  }
+
+  .footer-logo img {
+    width: 60px;
+  }
+
+  .footer h3 {
+    margin: 0 0 15px;
+    font-size: 17px;
+  }
+
+  .contact-info {
+    margin-top: 15px;
+  }
+
+  .contact-item {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .footer-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* mobile menu mobile*/
 .mobile-menu {
   display: none;
 }
@@ -634,13 +700,63 @@ width: 70%;
 
   .mobile-item {
     display: block;
-    background: #d71920;
+    background: #06265a;
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
     padding: 28px 35px;
-    border-bottom: 1px solid white;
+    text-align: left;
+    border-bottom: 0.4px solid white;
   }
+
+  .mobile-dropdown {
+    width: 100%;
+  }
+
+  .dropdown-btn {
+    width: 100%;
+display: flex;
+    border: none;
+    justify-content: space-between;
+    background: #06265a;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 28px 35px;
+    text-align: left;
+    border-bottom: 0.4px solid white;
+  }
+.arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+  .dropdown-content {
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+     padding: 8px 35px;
+     width: 100%;
+
+  }
+
+  .dropdown-content a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 0;
+  }
+
+  .dropdown-content a:hover {
+    color: #e00000;
+  }
+
+
 }
 @media (max-width: 768px) {
   
@@ -657,29 +773,57 @@ width: 70%;
   }
 
   .tracking {
-    padding: 30px 6%;
+    padding: 60px 6%;
   }
 
-  .tracking-box {
-    flex-direction: column;
-  }
+  
+.smart{
+  padding: 85px 6%;
+}
 
-  .service,
-  .smart-grid,
-  .features,
-  .footer {
+.container{
+  padding: 0 20px;
+  margin-top: -87px;
+}
+
+.container img{
+width: 100%;
+}
+  .smart-grid {
     grid-template-columns: 1fr;
   }
 
+
   .service {
     padding: 45px 6%;
+    grid-template-columns: 1fr;
   }
 
+  .service.white {
+    flex-direction: column;
+  }
+
+  .service.white img {
+    order: -1; /* Moves the image above the text */
+    width: 100%;
+  }
   .smart-logistics h2 {
     font-size: 28px;
+    grid-template-columns: 1fr;
   }
 
+    .features {
+    padding: 100px 6%;
+    grid-template-columns: 1fr;
+    margin-bottom: -90px;
+  }
+
+  .continent-section{
+    padding: 100px 6%;
+    display: grid;
+  }
   .continent-video {
+    
     grid-column: 1 / -1;
     display: flex;
     justify-content: center;
@@ -688,6 +832,7 @@ width: 70%;
   }
 
   .continent-video video {
+    padding: auto;
     width: 100%;
     max-width: 500px; /* Optional: prevents it from becoming too wide */
     height: auto;
@@ -695,5 +840,14 @@ width: 70%;
     object-fit: cover;
     display: block;
   }
+
+  .continent-card {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 5px;
+  
+}
 }
 

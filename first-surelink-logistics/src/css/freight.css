@@ -230,6 +230,7 @@ line-height: 1.2;
 
   .page-content {
     padding: 60px 6%;
+
   }
 
   .page-content h2 {
@@ -238,7 +239,8 @@ line-height: 1.2;
 
 
   .page-content p {
-    font-size: 20px;
+    font-size: 16px;
+    color: #c00000;
   }
 }
 
@@ -323,6 +325,12 @@ line-height: 1.2;
   background: #ad0000;
 }
 
+@media (max-width: 768px) {
+    .tracking-page {
+    padding: 100px 6%;
+  }
+}
+
 /*Support Service for track page*/
 .support-section {
   background: #f6f6f6;
@@ -370,6 +378,12 @@ line-height: 1.2;
 
 .support-btn:hover {
   background: #ad0000;
+}
+
+@media (max-width: 768px) {
+    .support-section {
+    padding: 100px 6%;
+  }
 }
 
 /* Contact Page */

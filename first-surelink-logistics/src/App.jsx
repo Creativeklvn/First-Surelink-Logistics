@@ -4,9 +4,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import SeaFreight from "./pages/SeaFreight";
-import AirFreight from "./pages/AirFreight";
-import LandFreight from "./pages/LandFreight";
+import SeaFreight from "./pages/sea-freight";
+import AirFreight from "./pages/air-freight";
+import LandFreight from "./pages/land-freight";
 
 import RouteAfrica from "./pages/route-africa";
 import RouteAsia from "./pages/route-asia";
@@ -29,9 +29,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/seafreight" element={<SeaFreight />} />
-        <Route path="/airfreight" element={<AirFreight />} />
-        <Route path="/landfreight" element={<LandFreight />} />
+        <Route path="/sea-freight" element={<SeaFreight />} />
+        <Route path="/air-freight" element={<AirFreight />} />
+        <Route path="/land-freight" element={<LandFreight />} />
 
         <Route path="/route-africa" element={<RouteAfrica />} />
         <Route path="/route-asia" element={<RouteAsia />} />

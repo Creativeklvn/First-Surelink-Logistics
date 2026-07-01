@@ -39,9 +39,9 @@ function Footer() {
 <FooterLinks
   title="Services"
   items={[
-    { label: "Air Freight", link: "/airfreight" },
-    { label: "Land Freight", link: "/landfreight" },
-    { label: "Sea Freight", link: "/seafreight" },
+    { label: "Air Freight", link: "/air-freight" },
+    { label: "Land Freight", link: "/land-freight" },
+    { label: "Sea Freight", link: "/sea-freight" },
     { label: "Warehousing", link: "/warehousing" },
   ]}
 />
