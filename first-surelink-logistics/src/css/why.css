@@ -121,6 +121,17 @@ background-repeat: no-repeat;
   gap: 4px;
 }
 
+.contact-label {
+    text-decoration: none;
+}
+
+.page-content h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  color: #000;
+  text-align: left;
+}
 .contact-row {
   display: flex;
   align-items: center;

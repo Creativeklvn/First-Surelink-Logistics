@@ -86,8 +86,8 @@ background-repeat: no-repeat;
 /* About Us*/
 .page-about {
 background:
-  linear-gradient(rgb(0, 43, 111), rgba(0, 7, 62, 0.962))
-  ;
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/logo.PNG");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
