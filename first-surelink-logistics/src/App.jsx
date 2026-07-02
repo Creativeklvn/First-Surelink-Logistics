@@ -12,8 +12,8 @@ import LandFreight from "./pages/land-freight";
 
 import RouteAfrica from "./pages/route-africa";
 import RouteAsia from "./pages/route-asia";
-import RouteNorthAmerica from "./pages/route-northAmerica";
-import RouteSouthAmerica from "./pages/route-southAmerica";
+import RouteNorthAmerica from "./pages/route-northamerica";
+import RouteSouthAmerica from "./pages/route-southamerica";
 import RouteEurope from "./pages/route-europe";
 
 import AboutUs from "./pages/about-us";
