@@ -25,15 +25,15 @@ function ContactUs() {
 
 <div className="contact-details">
   <Link to="tel:+2348036915391" className="contact-detail">
-    +234 803 691 5391
+    (+234) 803 691 5391
   </Link>
 
   <Link to="tel:+2349021650864" className="contact-detail">
-    +234 902 165 0864
+    (+234) 902 165 0864
   </Link>
 
   <Link to="tel:+2348178766130" className="contact-detail">
-    +234 817 876 6130
+    (+234) 817 876 6130
   </Link>
 </div>
 
@@ -89,7 +89,7 @@ function ContactUs() {
     </p>
 
     <p className="contact-details">
-      4 Sapri Close, Apapa, Lagos, Nigeria
+      4, Ashanti Close, Apapa, Lagos, Nigeria.
     </p>
 
     <div className="contact-option">

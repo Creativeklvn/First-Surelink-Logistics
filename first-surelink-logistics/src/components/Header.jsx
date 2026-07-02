@@ -47,7 +47,7 @@ function Header() {
     <>
       <header className="header">
         <div className="logo">
-          <img src="/images/logo2.PNG" alt="Sea freight" />
+          <img src="/images/logo33.png" alt="Sea freight" />
         </div>
 
         <nav className="nav">

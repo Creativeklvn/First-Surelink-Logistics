@@ -5,75 +5,82 @@ import call from "/images/call.png";
 
 function Footer() {
   return (
-      <footer className="footer">
-        <div>
-        <div className="footer-logo">
-    <img src="/images/logo2.PNG" alt="Sea freight" />
-  </div>
-          <h2>Get In Touch</h2>
-<div className="contact-info">
-  <div className="contact-item">
-    <img src={call} alt="Phone" className="contact-icon" />
-      <div className="contact-text">
-    <Link to="/contact">+234 803 691 5391</Link>
-    <Link to="/contact">+234 902 165 0864</Link>
-    <Link to="/contact">+234 817 876 6130</Link>
-  </div>
-</div>
+    <>
+<footer className="footer">
+  <FooterLinks
+    title="Services"
+    items={[
+      { label: "Air Freight", link: "/air-freight" },
+      { label: "Land Freight", link: "/land-freight" },
+      { label: "Sea Freight", link: "/sea-freight" },
+      { label: "Warehousing", link: "/warehousing" },
+    ]}
+  />
 
-<div className="contact-item">
-  <img src={email} alt="Email" className="contact-icon" />
-  <Link to="/contact">firstsurelink@gmail.com</Link>
-</div>
+  <FooterLinks
+    title="Route"
+    items={[
+      { label: "Africa", link: "/route-africa" },
+      { label: "Europe", link: "/route-europe" },
+      { label: "Asia", link: "/route-asia" },
+      { label: "North America", link: "/route-northamerica" },
+      { label: "South America", link: "/route-southamerica" },
+    ]}
+  />
 
-<div className="contact-item">
-  <img src={address} alt="Location" className="contact-icon" />
-  <Link to="/contact">
-    4, Ashanti Close, Apapa, Lagos, Nigeria.
-  </Link>
-  </div>
-</div>
+  <FooterLinks
+    title="Company"
+    items={[
+      { label: "About Us", link: "/about-us" },
+      { label: "Tracking", link: "/tracking" },
+      { label: "Global Reach", link: "/global-reach" },
+      { label: "Contact Us", link: "/contact" },
+    ]}
+  />
+
+  <FooterLinks
+    title="Legal"
+    items={[
+      { label: "Privacy Policy", link: "/privacy-policy" },
+      { label: "Terms and Conditions", link: "/terms-and-conditions" },
+    ]}
+  />
+
+  <div className="footer-contact-wrapper">
+    <div className="footer-logo">
+      <img src="/images/logo.PNG" alt="First Sure Link Logistics" />
+    </div>
+
+    <div className="contact-info">
+      <div className="contact-item">
+        
+        <div className="contact-text">
+          <Link to="/contact">(+234) 803 691 5391</Link>
+          <Link to="/contact">(+234) 902 165 0864</Link>
+          <Link to="/contact">(+234) 817 876 6130</Link>
         </div>
+      </div>
 
-<FooterLinks
-  title="Services"
-  items={[
-    { label: "Air Freight", link: "/air-freight" },
-    { label: "Land Freight", link: "/land-freight" },
-    { label: "Sea Freight", link: "/sea-freight" },
-    { label: "Warehousing", link: "/warehousing" },
-  ]}
-/>
+      <div className="contact-item">
+       
+        <Link to="/contact">firstsurelink@gmail.com</Link>
+      </div>
 
-<FooterLinks
-  title="Route"
-  items={[
-    { label: "Africa", link: "/route-africa" },
-    { label: "Europe", link: "/route-europe" },
-    { label: "Asia", link: "/route-asia" },
-    { label: "North America", link: "/route-northamerica" },
-    { label: "South America", link: "/route-southamerica" },
-  ]}
-/>
+      <div className="contact-item">
+        
+        <Link to="/contact">4, Ashanti Close, Apapa, Lagos, Nigeria.</Link>
+      </div>
 
-<FooterLinks
-  title="Company"
-  items={[
-    { label: "About Us", link: "/about-us" },
-    { label: "Tracking", link: "/tracking" },
-    { label: "Global Reach", link: "/global-reach" },
-    { label: "Contact Us", link: "/contact" },
-  ]}
-/> 
+    </div>
+  </div>
+</footer>
 
-<FooterLinks
-  title="Legal"
-  items={[
-    { label: "Privacy Policy", link: "/privacy-policy" },
-    { label: "Terms and Conditions", link: "/terms-and-conditions" },
-  ]}
-/> </footer>
-
+<section className="footer-copyright">
+  <small>
+    © {new Date().getFullYear()} First Surelink Logistics Nig. Ltd. All Rights Reserved.
+  </small>
+</section>
+</>
   );
 }
 
@@ -89,7 +96,9 @@ function FooterLinks({ title, items }) {
     </p>
   ))}
 </div>
+
   );
+  
 }
 
 export default Footer;
