@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../css/freight.css";
+import "../css/why.css";
 
 function ContactUs() {
   return (

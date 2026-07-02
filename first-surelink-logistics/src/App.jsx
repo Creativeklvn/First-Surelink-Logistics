@@ -20,6 +20,8 @@ import AboutUs from "./pages/about-us";
 import GlobalReach from "./pages/global-reach";
 import WhyChooseUs from "./pages/why-choose-us";
 import ContactUs from "./pages/contact-us";
+import TermsAndConditions from "./pages/terms-and-conditions";
+import PrivacyPolicy from "./pages/privacy-policy";
 
 import Tracking from "./pages/tracking";
 
@@ -48,6 +50,8 @@ function App() {
         <Route path="/global-reach" element={<GlobalReach />} />
         <Route path="/why-choose-us" element={<WhyChooseUs />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         <Route path="/tracking" element={<Tracking />} />
         

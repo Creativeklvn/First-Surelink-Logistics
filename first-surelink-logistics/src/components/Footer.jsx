@@ -61,10 +61,8 @@ function Footer() {
   items={[
     { label: "About Us", link: "/about-us" },
     { label: "Tracking", link: "/tracking" },
-    { label: "Contact Us", link: "/contact" },
     { label: "Global Reach", link: "/global-reach" },
-    { label: "Privacy Policy", link: "/privacy-policy" },
-    { label: "Terms and Conditions", link: "/terms-and-conditions" },
+    { label: "Contact Us", link: "/contact" },
   ]}
 /> 
 

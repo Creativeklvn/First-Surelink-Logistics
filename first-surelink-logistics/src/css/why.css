@@ -59,3 +59,116 @@
     color:#000000;
     line-height:1.8;
 }
+
+/* Privacy Policy */
+.page-policy {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/ship1.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-policy h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-policy p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Terms and Conditions */
+.page-terms {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/hero.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-terms h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-terms p {
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-icon-circle {
+  width: 24px;
+  height: 24px;
+  border: 0.5px solid #e00000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.contact-icon {
+  width: 15px;
+  height: 15px;
+
+  filter: brightness(0) saturate(100%)
+    invert(15%) sepia(100%)
+    saturate(5200%)
+    hue-rotate(355deg)
+    brightness(95%)
+    contrast(110%);
+}
+
+.contact-row a {
+  color: #1f2937;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+.contact-details p {
+  margin: 0 0 10px;
+}
+.contact-row:hover a {
+  color: #e00000;
+}
+
+.contact-row:hover .contact-icon-circle {
+  background: #e00000;
+}
+
+.contact-row:hover .contact-icon {
+  filter: brightness(0) invert(1);
+}
