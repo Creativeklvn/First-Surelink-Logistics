@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import email from "/images/email.png";
 import address from "/images/address.png";
 import call from "/images/call.png";
@@ -30,7 +29,7 @@ function Footer() {
 <div className="contact-item">
   <img src={address} alt="Location" className="contact-icon" />
   <Link to="/contact">
-    4, Ashanti Close, Apapa, Lagos, Nigeria
+    4, Ashanti Close, Apapa, Lagos, Nigeria.
   </Link>
   </div>
 </div>

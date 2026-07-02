@@ -16,7 +16,7 @@ function AboutUs() {
         <h2>Your trusted partner for global freight forwarding and logistics solutions.</h2>
 
 <p>
-  First Sure Link Logistics is a trusted Nigerian freight forwarding company
+  First Surelink Logistics is a trusted Nigerian freight forwarding company
   providing efficient logistics solutions tailored to the unique needs of
   businesses and individuals. Headquartered in Nigeria, we serve clients
   locally and internationally with reliable, customer-focused shipping
@@ -38,7 +38,7 @@ function AboutUs() {
 </p>
 
 <p>
-  At First Sure Link Nig. Ltd, we are committed to delivering exceptional
+  At First Surelink Nig. Ltd, we are committed to delivering exceptional
   customer service. Our dedicated team of logistics professionals is always
   available to assist clients, answer questions, and provide support at every
   stage of the shipping process, ensuring every shipment is handled with care,

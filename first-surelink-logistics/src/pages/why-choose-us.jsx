@@ -19,7 +19,7 @@ function WhyChooseUs() {
         </h2>
 
         <p>
-  At First Sure Link Logistics, we do more than move cargo—we provide
+  At First Surelink Logistics, we do more than move cargo—we provide
   logistics solutions designed to keep your business running smoothly. Every
   shipment is carefully planned and managed to ensure efficient transportation
   from origin to destination, with close attention to every stage of the

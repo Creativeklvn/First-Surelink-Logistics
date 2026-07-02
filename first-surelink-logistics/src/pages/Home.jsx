@@ -28,11 +28,12 @@ function Home() {
       <section className="hero">
         <div className="hero-overlay">
           <h1>Import & Export Logistics Made Simple</h1>
+          <div className="hero-p">
           <p>
-            Providing secure, reliable, and cost-effective import, export,
-            clearing, forwarding, and logistics solutions with exceptional
-            customer service.
+            Delivering comprehensive logistics services, 
+            from import and export to customs clearing and freight forwarding.
           </p>
+          </div>
         </div>
       </section>
 
@@ -85,7 +86,7 @@ function Home() {
         <div>
           <h2>Air Freight</h2>
           <p>
-            First Sure Link Logistics provides fast, reliable, and efficient air
+            First Surelink Logistics provides fast, reliable, and efficient air
             freight services for businesses and individuals.
           </p>
                     <Link to="/air-freight" className="service-btn">
@@ -97,9 +98,25 @@ function Home() {
 
 
       <section className="features">
-        <Feature title="Flexible around you" />
-        <Feature title="100% independent" />
-        <Feature title="All modes of transport" />
+  <Feature
+    icon={partnershipIcon}
+    title="Flexiblibity"
+    description="At First Surelink Logistics, we understand that every shipment is unique."
+  />
+
+  <Feature
+    icon={globalIcon}
+    title="Added Values"
+    description="We have various service options that complement your supply chain."
+  />
+
+  <Feature
+    icon={insuranceIcon}
+    title="Across Every Route"
+    description="Our integrated transportation services make it easy to move 
+    cargo by air, sea, and road locally and internationally."
+  />
+
       </section>
 
 
@@ -139,7 +156,7 @@ function Home() {
         <div>
           <h2>Reliable Shipment Tracking</h2>
           <p>
-            Monitor your shipments with confidence using First Sure Link
+            Monitor your shipments with confidence using First Surelink
             Logistics. Our intelligent tracking platform gives you real-time
             visibility, shipment updates, document access, and delivery insights.
           </p>
@@ -162,7 +179,7 @@ function Home() {
   <InfoCard
     icon={partnershipIcon}
     title="Global Carrier Partnerships"
-    description="At First Sure Link Logistics, we work closely with 
+    description="At First Surelink Logistics, we work closely with 
     leading shipping lines and logistics partners around the world to 
     secure competitive freight rates, dependable cargo space, flexible 
     shipping options, and efficient transit times. Our strong industry 
@@ -195,7 +212,7 @@ function Home() {
 <section className="flow-section">
 <div className="flow-sectio">
   <div className="flow-heading">
-     <h3>Capability</h3>
+     <h3>CAPABILITY</h3>
     <h2>Making Global Logistics Simple</h2>
   </div>
 
@@ -213,16 +230,13 @@ function Home() {
   );
 }
 
-function Feature({ title }) {
+function Feature({ icon, title, description }) {
   return (
-    <div className="feature-card">
-      <div className="icon">✦</div>
+     <div className="feature-card">
       <h3>{title}</h3>
-      <p>
-        We don’t push you into standard global freight solutions. We design
-        bespoke, optimized solutions for all your shipments.
-      </p>
+      <p>{description}</p>
     </div>
+
   );
 }
 

@@ -19,7 +19,7 @@ function RouteSouthAmerica() {
 
 <p>
   For companies and individuals sending goods to and from South America, 
-  First Sure Link Logistics offers trustworthy freight solutions. We guarantee 
+  First Surelink Logistics offers trustworthy freight solutions. We guarantee 
   that every shipment is handled effectively, safely, 
   and on time thanks to our extensive knowledge of international logistics.
 </p>
@@ -38,7 +38,7 @@ because of our dedication to dependability, openness, and client pleasure.</p>
         
  <h3>Reliable Land Freight Services</h3>
 <p>
-First Sure Link Logistics offers trustworthy land 
+First Surelink Logistics offers trustworthy land 
 freight services that are intended to transport your cargo across states, 
 cities, and international boundaries in a safe and effective manner. 
 We guarantee prompt delivery with expert handling at every stage, whether 

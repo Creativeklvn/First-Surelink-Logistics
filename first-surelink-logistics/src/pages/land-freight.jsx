@@ -18,7 +18,7 @@ function LandFreight() {
 </h2>
 
 <p>
-  At First Sure Link Logistics, our land freight services provide a dependable
+  At First Surelink Logistics, our land freight services provide a dependable
   solution for transporting goods quickly and efficiently by road. Whether
   you're moving commercial cargo, retail products, industrial equipment, or
   personal belongings, we deliver flexible transportation services tailored to
@@ -43,7 +43,7 @@ function LandFreight() {
         
         <h3>Reliable Road Transportation</h3>
 <p>
-  First Sure Link Logistics provides dependable land freight services designed
+  First Surelink Logistics provides dependable land freight services designed
   to move your cargo safely and efficiently across cities, states, and
   international borders. Whether you're transporting commercial goods,
   industrial equipment, or personal shipments, we ensure timely delivery with

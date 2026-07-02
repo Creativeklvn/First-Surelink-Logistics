@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+
 import "./App.css"; // Global styles (Header, Footer, etc.)
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -25,9 +27,12 @@ import Tracking from "./pages/tracking";
 function App() {
   return (
     <>
-      <Header />
+      
 
+      <ScrollToTop />
+      <Header />
       <Routes>
+        
         <Route path="/" element={<Home />} />
         <Route path="/sea-freight" element={<SeaFreight />} />
         <Route path="/air-freight" element={<AirFreight />} />
@@ -49,10 +54,10 @@ function App() {
         
 
         <Route path="/Home" element={<Home />} />
+         </Routes>
+<Footer />
 
-      </Routes>
-
-      <Footer />
+      
     </>
   );
 }

@@ -18,7 +18,7 @@ function AirFreight() {
         </h2>
 
         <p>
-        At First Sure Link Logistics, we understand that speed is critical when it 
+        At First Surelink Logistics, we understand that speed is critical when it 
         comes to global trade. Our air freight services provide a fast, secure, and 
         reliable solution for time-sensitive shipments, ensuring your cargo reaches 
         its destination safely and on schedule.
@@ -36,12 +36,12 @@ function AirFreight() {
         <p>
         From cargo collection and customs clearance to real-time shipment tracking and final delivery,
          our experienced logistics team manages every stage of the shipping process with precision and 
-         professionalism. With First Sure Link Logistics, you can trust that your cargo is handled with 
+         professionalism. With First Surelink Logistics, you can trust that your cargo is handled with 
          the highest level of care, giving you complete peace of mind from origin to destination.
         </p>
         <h3>Global Air Freight Solutions</h3>
 <p>
-  At First Sure Link Logistics, we provide fast, reliable, and secure air freight services tailored to meet your shipping needs. Whether you're transporting commercial cargo, personal belongings, or time-sensitive shipments, our global network ensures efficient delivery to destinations worldwide.
+  At First Surelink Logistics, we provide fast, reliable, and secure air freight services tailored to meet your shipping needs. Whether you're transporting commercial cargo, personal belongings, or time-sensitive shipments, our global network ensures efficient delivery to destinations worldwide.
 </p>
 
 <h3>Worldwide Coverage</h3>

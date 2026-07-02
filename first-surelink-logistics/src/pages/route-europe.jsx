@@ -18,7 +18,7 @@ function RouteEurope() {
 </h2>
 
 <p>
-  Europe is one of the world's leading trade regions, and First Sure Link Logistics helps businesses 
+  Europe is one of the world's leading trade regions, and First Surelink Logistics helps businesses 
   and individuals move cargo with confidence. We provide efficient freight solutions that connect European 
   markets with destinations around the globe.
 </p>

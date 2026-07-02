@@ -18,9 +18,8 @@ function RouteAsia() {
 </h2>
 
 <p>
-  First Sure Link Logistics provides comprehensive freight solutions for businesses and individuals 
-  shipping cargo to and from Asia. With access to major trade hubs and transportation networks, 
-  we ensure your shipments move efficiently, securely, and on schedule.
+  Supporting international trade with freight solutions designed for shipments to and from Asia. 
+  Our extensive logistics network ensure reliable transportation and smooth cargo movement.
 </p>
 
 <p>

@@ -18,7 +18,7 @@ function RouteNorthAmerica() {
 </h2>
 
 <p>
-  At First Sure Link Logistics, we provide dependable freight solutions for businesses and 
+  At First Surelink Logistics, we provide dependable freight solutions for businesses and 
   individuals shipping cargo to and from North America. With a strong understanding of international 
   logistics, we ensure every shipment is handled efficiently, securely, and delivered on schedule.
 </p>
