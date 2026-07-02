@@ -48,7 +48,7 @@ function Footer() {
 
   <div className="footer-contact-wrapper">
     <div className="footer-logo">
-      <img src="/images/logo.PNG" alt="First Sure Link Logistics" />
+      <img src="/images/logo3.png" alt="First Sure Link Logistics" />
     </div>
 
     <div className="contact-info">
