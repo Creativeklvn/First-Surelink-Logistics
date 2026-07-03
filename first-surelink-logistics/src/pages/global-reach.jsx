@@ -19,7 +19,7 @@ function GlobalReach() {
         </h2>
 
         <p>
-        First Surelink Logistics connects businesses and individuals to destinations 
+        First SureLink Logistics connects businesses and individuals to destinations 
         around the world through a reliable network of international shipping partners 
         and logistics providers. Our global reach enables us to deliver seamless freight 
         forwarding solutions across major trade routes, ensuring cargo moves efficiently 
@@ -36,7 +36,7 @@ function GlobalReach() {
         <p>
         By combining local expertise with a strong international network, we simplify cross-border shipping, 
         customs processes, and cargo handling while maintaining high standards of safety, efficiency, and transparency. 
-        No matter where your business operates, First Surelink Logistics is committed to keeping your supply chain 
+        No matter where your business operates, First SureLink Logistics is committed to keeping your supply chain 
         connected and your shipments moving with confidence.
         </p>
         

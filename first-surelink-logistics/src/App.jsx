@@ -24,6 +24,7 @@ import WhyChooseUs from "./pages/why-choose-us";
 import ContactUs from "./pages/contact-us";
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyPolicy from "./pages/privacy-policy";
+import Industries from "./pages/industries";
 
 import Tracking from "./pages/tracking";
 
@@ -51,10 +52,11 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/global-reach" element={<GlobalReach />} />
         <Route path="/why-choose-us" element={<WhyChooseUs />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/chemical-importation" element={<ChemicalImportation />} />
+        <Route path="/industries" element={<Industries />} />
 
         <Route path="/tracking" element={<Tracking />} />
         

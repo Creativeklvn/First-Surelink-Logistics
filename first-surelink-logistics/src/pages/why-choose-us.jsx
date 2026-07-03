@@ -7,7 +7,7 @@ function WhyChooseUs() {
       <section className="page-global">
         <div className="page-hero-content">
           <h1>Why Choose Us</h1>
-          <p>Experience the First Surelink Difference</p>
+          <p>Experience the First SureLink Difference</p>
         </div>
       </section>
 
@@ -19,7 +19,7 @@ function WhyChooseUs() {
         </h2>
 
         <p>
-  At First Surelink Logistics, we do more than move cargo—we provide
+  At First SureLink Logistics, we do more than move cargo—we provide
   logistics solutions designed to keep your business running smoothly. Every
   shipment is carefully planned and managed to ensure efficient transportation
   from origin to destination, with close attention to every stage of the

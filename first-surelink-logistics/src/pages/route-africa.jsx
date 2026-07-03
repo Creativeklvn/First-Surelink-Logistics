@@ -18,7 +18,7 @@ function RouteAfrica() {
 </h2>
 
 <p>
-  First Surelink Logistics offers comprehensive freight solutions for 
+  First SureLink Logistics offers comprehensive freight solutions for 
   businesses and individuals shipping cargo throughout Africa. Our logistics
   network is designed to deliver efficient, secure, and cost-effective 
   transportation for a wide range of goods across the continent.

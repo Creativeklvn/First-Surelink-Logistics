@@ -101,7 +101,7 @@ function Home() {
   <Feature
     icon={partnershipIcon}
     title="Flexiblibity"
-    description="At First Surelink Logistics, we understand that every shipment is unique."
+    description="At First SureLink Logistics, we understand that every shipment is unique."
   />
 
   <Feature
@@ -132,7 +132,7 @@ function Home() {
         controls={playing}
       >
        <source
-  src="https://res.cloudinary.com/dtj7gatn2/video/upload/video-output-F43B314B-2B47-4907-B1D4-90A4C0A84274-1_xklrzy.mov"
+  src="https://res.cloudinary.com/dtj7gatn2/video/upload/video-output-EBF41B76-ECCA-4A18-84FF-5D16E60CA92C-1_j8cjcc.mp4"
   type="video/mp4"
 />
       </video>
@@ -156,7 +156,7 @@ function Home() {
         <div>
           <h2>Reliable Shipment Tracking</h2>
           <p>
-            Monitor your shipments with confidence using First Surelink
+            Monitor your shipments with confidence using First SureLink
             Logistics. Our intelligent tracking platform gives you real-time
             visibility, shipment updates, document access, and delivery insights.
           </p>
@@ -179,7 +179,7 @@ function Home() {
   <InfoCard
     icon={partnershipIcon}
     title="Global Carrier Partnerships"
-    description="At First Surelink Logistics, we work closely with 
+    description="At First SureLink Logistics, we work closely with 
     leading shipping lines and logistics partners around the world to 
     secure competitive freight rates, dependable cargo space, flexible 
     shipping options, and efficient transit times. Our strong industry 

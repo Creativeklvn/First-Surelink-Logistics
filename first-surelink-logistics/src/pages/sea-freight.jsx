@@ -18,7 +18,7 @@ function SeaFreight() {
         </h2>
 
         <p>
-        First Surelink Logistics provides reliable, cost-effective, and efficient 
+        First SureLink Logistics provides reliable, cost-effective, and efficient 
         sea freight solutions for businesses and individuals shipping cargo across the 
         globe. Whether you're moving full container loads (FCL), less-than-container loads 
         (LCL), commercial goods, vehicles, heavy equipment, or personal effects, we ensure 
@@ -34,12 +34,12 @@ function SeaFreight() {
 
         <p>
         From cargo booking and customs clearance to documentation, container tracking, and final delivery, our 
-        experienced logistics professionals oversee every stage of the shipping process. With First Surelink Logistics, 
+        experienced logistics professionals oversee every stage of the shipping process. With First SureLink Logistics, 
         you benefit from transparent communication, real-time shipment visibility, and logistics solutions tailored to your business needs.
         </p>
                 <h3>Extensive Global Port Coverage</h3>
 <p>
-  First Surelink Logistics connects businesses and individuals to major ports
+  First SureLink Logistics connects businesses and individuals to major ports
   worldwide through our trusted network of international shipping partners. We
   provide reliable import and export sea freight services that ensure your cargo
   reaches its destination safely, efficiently, and on schedule.

@@ -16,7 +16,7 @@ function TermsAndConditions() {
 
 <h3>Terms of Use</h3>
 <p>
-  These Terms and Conditions govern your access to and use of the First Surelink
+  These Terms and Conditions govern your access to and use of the First SureLink
   Logistics website. By accessing or using this Website, you agree to be bound by
   these terms. If you do not agree with any part of these Terms and Conditions,
   please discontinue using our Website.
@@ -68,7 +68,7 @@ function TermsAndConditions() {
 
 <h3>Limitation of Liability</h3>
 <p>
-  First Surelink Logistics shall not be liable for indirect, incidental,
+  First SureLink Logistics shall not be liable for indirect, incidental,
   or consequential damages arising from the use of our Website or services,
   except where required by applicable law.
 </p>
@@ -119,7 +119,7 @@ function TermsAndConditions() {
 
 <h3>Linking to Our Website</h3>
 <p>
-  You may link to the First Surelink Logistics home page provided the link
+  You may link to the First SureLink Logistics home page provided the link
   is lawful, fair, and does not imply endorsement or association without
   our permission. We reserve the right to withdraw linking permission at
   any time.
@@ -127,8 +127,8 @@ function TermsAndConditions() {
 
 <h3>Trademarks</h3>
 <p>
-  The First Surelink Logistics name, logo, and associated branding are
-  trademarks of <strong>First Surelink Logistics Nig. Ltd.</strong> and
+  The First SureLink Logistics name, logo, and associated branding are
+  trademarks of <strong>First SureLink Logistics Nig. Ltd.</strong> and
   may not be used without our prior written permission.
 </p>
 
@@ -156,7 +156,7 @@ function TermsAndConditions() {
 <h3>Your Concerns</h3>
 <p>
   If you have any questions or concerns regarding our Website or any
-  material published on it, please contact First Surelink Logistics. We
+  material published on it, please contact First SureLink Logistics. We
   appreciate your feedback and will review your concerns as promptly as
   possible.
 </p>
@@ -165,7 +165,7 @@ function TermsAndConditions() {
 
 <div className="contact-details">
   <p>
-    <strong>First Surelink Logistics Nig. Ltd.</strong>
+    <strong>First SureLink Logistics Nig. Ltd.</strong>
   </p>
 
   <div className="contact-row">
@@ -210,7 +210,7 @@ function TermsAndConditions() {
     </div>
 
     <a href="tel:+2348036915391">
-      +234 803 691 5391
+      (+234) 803 691 5391
     </a>
   </div>
 
@@ -224,7 +224,7 @@ function TermsAndConditions() {
     </div>
 
     <a href="tel:+2349021650864">
-      +234 902 165 0864
+      (+234) 902 165 0864
     </a>
   </div>
 
@@ -238,13 +238,13 @@ function TermsAndConditions() {
     </div>
 
     <a href="tel:+2348178766130">
-      +234 817 876 6130
+      (+234) 817 876 6130
     </a>
   </div>
 </div>
 
 <p>
-  Thank you for visiting the First Surelink Logistics Website.
+  Thank you for visiting the First SureLink Logistics Website.
 </p>
 
       </section>

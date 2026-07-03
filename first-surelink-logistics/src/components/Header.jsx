@@ -97,6 +97,12 @@ function Header() {
               <Link to="/why-choose-us" className="dropdown-link">
                 Why Choose Us
               </Link>
+              <Link to="/industries" className="dropdown-link">
+                Industries Served
+              </Link>
+              <Link to="/contact-us" className="dropdown-link">
+                Contact Us
+              </Link>
             </div>
           </div>
         </nav>
@@ -168,6 +174,10 @@ function Header() {
                   <Link to="/global-reach" onClick={closeMenu}>
                     Global Reach
                   </Link>
+                  <Link to="/industries" onClick={closeMenu}>
+                    Industries Served
+                  </Link>
+                  
                 </div>
               )}
             </div>
@@ -176,8 +186,8 @@ function Header() {
               About Us
             </Link>
 
-            <Link className="mobile-item" to="/contact" onClick={closeMenu}>
-              Contact
+            <Link className="mobile-item" to="/contact-us" onClick={closeMenu}>
+              Contact Us
             </Link>
           </div>
         </div>

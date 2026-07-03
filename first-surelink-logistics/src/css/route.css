@@ -221,14 +221,23 @@ background-repeat: no-repeat;
 }
 
 .page-content h2 {
-  font-size: 44px;
+  font-size: 35px;
   line-height: 1.2;
   margin-bottom: 35px;
   color: #000;
   text-align: left;
 }
+
+.page-content h4 {
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 35px;
+  color: #000;
+  text-align: left;
+}
   .page-content h3 {
-font-size: 24px;
+font-size: 20px;
+
 line-height: 1.2;
   margin-bottom: 10px;
   color: #e00000;
@@ -237,8 +246,8 @@ line-height: 1.2;
 
 .page-content p {
   font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 40px;
+  line-height: 1.7;
+  margin-bottom: 20px;
   text-align: left;
   color: #000;
 }
@@ -458,13 +467,122 @@ line-height: 1.2;
 
 
 /* Chemical Applications */
+/* Global Reach*/
+.page-chemical {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/chemical.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-chemical h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-chemical p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.titanium {
+background:
+  url("/images/chemical.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+
+.titanium-video{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:90px;
+    padding: 80px auto;
+}
+
+.video-container{
+    flex: 2;
+}
+
+.titanium-bg-video{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.applications-container{
+    flex:1;
+}
+
+.applications-container h3{
+    margin-bottom:25px;
+}
+
+.app{
+    list-style:none;
+    padding:0;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+}
+
+.app li{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.app li img{
+    width:18px;
+    height:18px;
+      filter: brightness(0) saturate(100%) invert(15%) sepia(100%)
+          saturate(5200%) hue-rotate(355deg)
+          brightness(95%) contrast(110%);
+
+}
+
+@media (max-width:768px){
+
+    .titanium-video{
+        flex-direction:column;
+    }
+
+    .video-container,
+    .applications-container{
+        width:100%;
+    }
+
+    .titanium-bg-video{
+        height:250px;
+    }
+
+}
+
+
 .applications{
   list-style:none;
   padding:0;
   margin-top:20px;
 
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(1fr);
   gap:15px 30px;
 }
 
@@ -501,4 +619,174 @@ line-height: 1.2;
     margin-top: 3px;
   }
 
+}
+
+/*Acrylic*/
+.titanium-section{
+  display:flex;
+  align-items:center;
+  gap:90px;
+  padding: 80px auto;
+}
+
+.applications-container{
+  flex:1;
+}
+
+.image-container{
+  flex:1;
+}
+
+.image-container img{
+  width:100%;
+  height:450px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+@media (max-width:768px){
+
+  .titanium-section{
+    flex-direction:column;
+    gap:35px;
+  }
+
+  .applications-container,
+  .image-container{
+    width:100%;
+  }
+
+  .image-container img{
+    height:280px;
+  }
+
+  
+  
+}
+
+/*Industry*/
+
+.industries{
+  padding:30px 7%;
+  margin-top: 80px;
+  background-color: #ebebeb;
+}
+
+.industries h2{
+  margin-bottom:15px;
+}
+
+.industries p{
+  margin-bottom:30px;
+}
+
+.industries-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+text-align: left;
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  gap:18px 40px;
+}
+
+.industries-list li{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.industries-list li img{
+  width:18px;
+  height:18px;
+  object-fit:contain;
+
+  filter: brightness(0) saturate(100%) invert(15%) sepia(100%)
+          saturate(5200%) hue-rotate(355deg)
+          brightness(95%) contrast(110%);
+}
+
+@media (max-width:768px){
+  .industries-list{
+    grid-template-columns:1fr;
+  }
+}
+
+
+/*industries served page*/
+.sector-section{
+  padding:80px 7%;
+  background:#f8f9fb;
+}
+
+.sector-header{
+  text-align:center;
+  max-width:700px;
+  text-align: left;
+}
+
+.sector-header h2{
+  font-size:2.2rem;
+  color:#002b5c;
+  margin-bottom:15px;
+  text-align: left;
+}
+
+.sector-header p{
+  color:#666;
+  line-height:1.7;
+  text-align: left;
+}
+
+.sector-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.sector-item{
+  background:#fff;
+  border-radius:12px;
+  padding:35px 25px;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.sector-item:hover{
+  transform:translateY(-8px);
+}
+
+.sector-item img{
+  width:60px;
+  height:60px;
+  object-fit:contain;
+  margin-bottom:20px;
+
+}
+
+.sector-item h3{
+  font-size:1.1rem;
+  color:#002b5c;
+  line-height:1.5;
+}
+
+@media (max-width:992px){
+  .sector-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:768px){
+  .sector-section{
+    padding:60px 5%;
+  }
+
+  .sector-grid{
+    grid-template-columns:1fr;
+  }
+
+  .sector-header h2{
+    font-size:1.8rem;
+  }
 }

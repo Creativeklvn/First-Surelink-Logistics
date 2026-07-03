@@ -95,7 +95,7 @@ function PrivacyPolicy() {
 
 <div className="contact-details">
   <p>
-    <strong>First Surelink Logistics Nig. Ltd.</strong>
+    <strong>First SureLink Logistics Nig. Ltd.</strong>
   </p>
 
   <div className="contact-row">
@@ -140,7 +140,7 @@ function PrivacyPolicy() {
     </div>
 
     <a href="tel:+2348036915391">
-      +234 803 691 5391
+     (+234) 803 691 5391
     </a>
   </div>
 
@@ -154,7 +154,7 @@ function PrivacyPolicy() {
     </div>
 
     <a href="tel:+2349021650864">
-      +234 902 165 0864
+      (+234) 902 165 0864
     </a>
   </div>
 
@@ -168,13 +168,13 @@ function PrivacyPolicy() {
     </div>
 
     <a href="tel:+2348178766130">
-      +234 817 876 6130
+      (+234) 817 876 6130
     </a>
   </div>
 </div>
 
 <p>
-  Thank you for visiting the First Surelink Logistics Website.
+  Thank you for visiting the First SureLink Logistics Website.
 </p>
 
       </section>
