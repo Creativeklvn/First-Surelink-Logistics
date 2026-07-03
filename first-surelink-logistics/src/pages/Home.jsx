@@ -1,6 +1,9 @@
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import "../App.css";
 
@@ -10,7 +13,12 @@ import insuranceIcon from "/images/insurance.png";
 
 
 function Home() {
-
+ useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: true, // animation runs only once
+    });
+  }, []);
 
   const videoRef = useRef(null);
   const [playing, setPlaying] = useState(false);
@@ -26,9 +34,14 @@ function Home() {
 
 <>
       <section className="hero">
+<div className="hero-slider">
+    <img src="/images/truck.jpg" alt="" />
+    <img src="/images/land1.png" alt="" />
+    <img src="/images/ship2.png" alt="" />
+  </div>
         <div className="hero-overlay">
-          <h1>Import & Export Logistics Made Simple</h1>
-          <div className="hero-p">
+          <h1>Import & Export Logistics Made Simple </h1>
+          <div className="hero-p"data-aos="fade-up"data-aos-duration="700">
           <p>
             Delivering comprehensive logistics services, 
             from import and export to customs clearing and freight forwarding.
