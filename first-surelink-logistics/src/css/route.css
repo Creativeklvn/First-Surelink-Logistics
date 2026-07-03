@@ -183,6 +183,20 @@ background-repeat: no-repeat;
   padding: 0 7% 45px;
 }
 
+.titanium {
+background:
+  url("/images/titanium.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+
 .contact-link {
   color: #e00000;
   text-decoration: none;
@@ -443,3 +457,48 @@ line-height: 1.2;
 
 
 
+/* Chemical Applications */
+.applications{
+  list-style:none;
+  padding:0;
+  margin-top:20px;
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px 30px;
+}
+
+.applications li{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:#444;
+}
+
+.applications img{
+  width:18px;
+  height:18px;
+  filter: brightness(0) saturate(100%) invert(15%) sepia(100%)
+          saturate(5200%) hue-rotate(355deg)
+          brightness(95%) contrast(110%);
+}
+
+@media (max-width:768px){
+
+  .applications{
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .applications li{
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .applications li img{
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+  }
+
+}

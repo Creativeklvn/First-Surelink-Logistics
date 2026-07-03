@@ -16,50 +16,51 @@ function AboutUs() {
         <h2>Your trusted partner for global freight forwarding and logistics solutions.</h2>
 
 <p>
-  First Surelink Logistics is a trusted Nigerian freight forwarding company
-  providing efficient logistics solutions tailored to the unique needs of
-  businesses and individuals. Headquartered in Nigeria, we serve clients
-  locally and internationally with reliable, customer-focused shipping
-  services.
+  First Sure Link Logistics is a trusted logistics, clearing and forwarding, 
+  import and export Nigerian company established in 2015. Since our inception, 
+  we have been committed to delivering reliable, efficient, and cost-effective 
+  logistics solutions that connect businesses and individuals to opportunities 
+  across local and international markets.
 </p>
 
 <p>
-  With years of industry experience and a strong track record of reliable
-  service delivery across the globe, we offer customized logistics solutions
-  that ensure cost-effectiveness, secure handling, and timely delivery.
+With years of industry experience, we specialize in customs clearing, freight 
+forwarding, cargo handling, import and export services, and end-to-end logistics 
+management. Our team works diligently to ensure every shipment is handled with 
+professionalism, accuracy, and care, from origin to destination.
 </p>
 
 <p>
-  As a freight forwarder, we provide a comprehensive range of services for
-  clients across Nigeria, West Africa, and international markets. We have
-  built strong relationships with shipping carriers, customs authorities, and
-  global trade partners, enabling us to manage complex logistics operations
-  and deliver seamless, dependable solutions.
+At First Sure Link Logistics, we understand that every shipment is more than just 
+cargo it is a commitment to our clients. That is why we focus on timely delivery, 
+regulatory compliance, transparent communication, and personalized service to provide 
+a seamless logistics experience.
 </p>
 
 <p>
-  At First Surelink Nig. Ltd, we are committed to delivering exceptional
-  customer service. Our dedicated team of logistics professionals is always
-  available to assist clients, answer questions, and provide support at every
-  stage of the shipping process, ensuring every shipment is handled with care,
-  efficiency, and professionalism.
+Over the years, we have built a reputation for integrity, reliability, and excellence 
+by consistently exceeding client expectations. Whether you are a business importing 
+goods, exporting products to international markets, or seeking dependable freight 
+and customs clearance services, we are dedicated to providing solutions tailored 
+to your unique needs.
 </p>
 
 <h3>Our Vision</h3>
 <p>
-  To become a leading Nigerian and globally recognized logistics and freight
-  forwarding company, delivering innovative, reliable, and customer-focused
-  supply chain solutions that connect businesses, industries, and markets
-  across the world.
+Our vision is to become one of the leading logistics and freight forwarding 
+companies recognized for innovation, customer satisfaction, and operational excellence.
+
 </p>
 
 <h3>Our Mission</h3>
 <p>
-  To provide efficient, secure, and cost-effective freight forwarding and
-  logistics services through professional expertise, strong global
-  partnerships, and exceptional customer service. We are committed to ensuring
-  timely delivery, simplifying international trade, and building long-term
-  relationships founded on trust, integrity, and excellence.
+Our mission is to simplify global trade through dependable logistics services, 
+
+</p>
+
+<p>
+  At First Sure Link Logistics, we don't just move cargo we build lasting partnerships 
+  by delivering confidence, efficiency, and peace of mind with every shipment.
 </p>
       </section>
 

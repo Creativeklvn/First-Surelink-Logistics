@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import SeaFreight from "./pages/sea-freight";
 import AirFreight from "./pages/air-freight";
 import LandFreight from "./pages/land-freight";
+import ChemicalImportation from "./pages/chemical-importation";
+
 
 import RouteAfrica from "./pages/route-africa";
 import RouteAsia from "./pages/route-asia";
@@ -52,6 +54,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/chemical-importation" element={<ChemicalImportation />} />
 
         <Route path="/tracking" element={<Tracking />} />
         

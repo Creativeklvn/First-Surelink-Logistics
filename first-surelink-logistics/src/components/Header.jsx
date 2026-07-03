@@ -72,8 +72,8 @@ function Header() {
               <Link to="/air-freight" className="dropdown-link">
                 Air Freight
               </Link>
-              <Link to="/warehousing" className="dropdown-link">
-                Warehousing
+              <Link to="/chemical-importation" className="dropdown-link">
+                Chemical Importation
               </Link>
               <Link to="/customs-clearing" className="dropdown-link">
                 Customs Clearing
@@ -140,6 +140,9 @@ function Header() {
                   </Link>
                   <Link to="/land-freight" onClick={closeMenu}>
                     Land Freight
+                  </Link>
+                  <Link to="/chemical-importation" onClick={closeMenu}>
+                    Chemical Importation
                   </Link>
                 </div>
               )}
