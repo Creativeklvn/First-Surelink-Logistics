@@ -5,12 +5,13 @@ function Warehousing() {
   return (
     <main className="page">
       <section className="page-warehouse">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Warehousing</h1>
           <p>Efficient storage and distribution services you can trust.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

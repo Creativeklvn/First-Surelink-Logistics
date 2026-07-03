@@ -4,12 +4,13 @@ function AboutUs() {
   return (
     <main className="page">
       <section className="page-about">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>About Us</h1>
           <p>At First Surelink Logistics</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

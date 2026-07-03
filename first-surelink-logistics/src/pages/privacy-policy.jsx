@@ -4,10 +4,12 @@ function PrivacyPolicy() {
   return (
     <main className="page">
       <section className="page-policy">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Privacy Policy</h1>
          
         </div>
+      </section>
       </section>
 
       <div className="red-bar"></div>

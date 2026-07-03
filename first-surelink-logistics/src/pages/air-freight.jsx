@@ -4,12 +4,13 @@ function AirFreight() {
   return (
     <main className="page">
       <section className="page-air">
+       <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Air Freight</h1>
           <p>Speed, security, and reliability.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

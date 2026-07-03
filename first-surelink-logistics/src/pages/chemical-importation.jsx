@@ -5,10 +5,12 @@ function ChemicalImportation() {
   return (
     <main className="page">
       <section className="page-chemical">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Chemical Importation</h1>
           <p>Titanium Dioxide, Acrylic, Red Oxide.</p>
         </div>
+      </section>
       </section>
 
       <div className="red-bar"></div>

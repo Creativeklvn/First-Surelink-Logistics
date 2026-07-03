@@ -5,13 +5,14 @@ function ContactUs() {
   return (
     <main className="page">
       <section className="page-contact">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Contact Us</h1>
           <p>For further information regarding our services, 
             for booking enquires or to receive a quick-response quotation, please see our contact details below.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="contact-section">

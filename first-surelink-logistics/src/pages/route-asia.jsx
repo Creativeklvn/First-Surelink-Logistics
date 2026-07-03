@@ -4,12 +4,14 @@ function RouteAsia() {
   return (
     <main className="page">
       <section className="page-asia">
-        <div className="page-hero-content">
+        <section className="hero-content fade-right-now">
+
+<div className="page-hero-content">
           <h1>Asia</h1>
           <p>Whether importing or exporting, we simplify shipping to and from North America.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

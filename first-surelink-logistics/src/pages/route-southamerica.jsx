@@ -4,12 +4,13 @@ function RouteSouthAmerica() {
   return (
     <main className="page">
       <section className="page-southamerica">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>South America</h1>
           <p>We make shipping to and from South America easier, whether you are importing or exporting.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

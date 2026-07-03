@@ -5,10 +5,12 @@ function Tracking() {
   return (
     <main className="page">
       <section className="page-tracking">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Tracking</h1>
           <p>Know where your shipment is, anytime.</p>
         </div>
+      </section>
       </section>
 
       <div className="red-bar"></div>

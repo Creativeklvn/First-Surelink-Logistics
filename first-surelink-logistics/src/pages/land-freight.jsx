@@ -4,11 +4,13 @@ function LandFreight() {
   return (
     <main className="page">
       <section className="page-land">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Land Freight</h1>
           <p>Speed, security, and reliability.</p>
         </div>
       </section>
+</section>
 
       <div className="red-bar"></div>
 

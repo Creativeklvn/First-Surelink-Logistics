@@ -4,11 +4,13 @@ function RouteAfrica() {
   return (
     <main className="page">
       <section className="page-africa">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Africa</h1>
           <p>Whether importing or exporting, we simplify shipping to and from Africa.</p>
         </div>
       </section>
+</section>
 
       <div className="red-bar"></div>
 

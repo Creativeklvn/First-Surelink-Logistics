@@ -4,12 +4,13 @@ function TermsAndConditions() {
   return (
     <main className="page">
       <section className="page-terms">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Terms and Conditions</h1>
          
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

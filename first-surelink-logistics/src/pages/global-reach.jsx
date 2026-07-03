@@ -5,12 +5,13 @@ function GlobalReach() {
   return (
     <main className="page">
       <section className="page-global">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Our Global Reach</h1>
           <p>Supporting global trade with efficient logistics and freight forwarding.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

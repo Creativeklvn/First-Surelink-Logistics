@@ -5,12 +5,13 @@ function WhyChooseUs() {
   return (
     <main className="page">
       <section className="page-global">
+        <section className="hero-content fade-right-now">
         <div className="page-hero-content">
           <h1>Why Choose Us</h1>
           <p>Experience the First SureLink Difference</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

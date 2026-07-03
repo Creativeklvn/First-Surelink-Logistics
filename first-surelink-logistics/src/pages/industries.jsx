@@ -5,12 +5,14 @@ function Industries() {
   return (
     <main className="page">
       <section className="page-chemical">
+        <section className="hero-content fade-right-now">
+          
         <div className="page-hero-content">
           <h1>Industries Served</h1>
           <p>Trusted global suppliers.</p>
         </div>
       </section>
-
+</section>
       <div className="red-bar"></div>
 
       <section className="page-content">

@@ -38,7 +38,7 @@ function Footer() {
       { label: "Tracking", link: "/tracking" },
       { label: "Global Reach", link: "/global-reach" },
       { label: "Industries Served", link: "/industries" },
-      { label: "Contact Us", link: "/contact" },
+      { label: "Contact Us", link: "/contact-us" },
       
     ]}
   />
