@@ -25,6 +25,7 @@ import ContactUs from "./pages/contact-us";
 import TermsAndConditions from "./pages/terms-and-conditions";
 import PrivacyPolicy from "./pages/privacy-policy";
 import Industries from "./pages/industries";
+import Warehousing from "./pages/warehousing";
 
 import Tracking from "./pages/tracking";
 
@@ -57,6 +58,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/chemical-importation" element={<ChemicalImportation />} />
         <Route path="/industries" element={<Industries />} />
+        <Route path="/warehousing" element={<Warehousing />} />
 
         <Route path="/tracking" element={<Tracking />} />
         

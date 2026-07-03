@@ -2,6 +2,33 @@
 .page {
   width: 100%;
 }
+/* warehouse*/
+.page-warehouse {
+background:
+  linear-gradient(rgba(6, 38, 90, 0.731), rgba(0, 1, 37, 0.962)),
+  url("/images/warehouse.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  height: 340px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 7% 45px;
+}
+
+.page-warehouse h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.page-warehouse p {
+  font-size: 18px;
+  text-align: left;
+}
+
 /* Africa*/
 .page-africa {
 background:

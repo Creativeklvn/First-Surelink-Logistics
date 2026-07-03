@@ -22,6 +22,13 @@ function TermsAndConditions() {
   please discontinue using our Website.
 </p>
 
+<h3>Registered & Trusted</h3>
+<p>
+First Sure Link Logistics is a duly registered company in Nigeria, incorporated
+ under the Corporate Affairs Commission (CAC) since 2015. We are committed to operating 
+ with professionalism, integrity, and full compliance with applicable regulations.
+</p>
+
 <h3>Services</h3>
 <p>
   Our services include import and export logistics, freight forwarding,

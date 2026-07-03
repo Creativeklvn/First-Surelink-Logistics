@@ -14,7 +14,9 @@ function Footer() {
       { label: "Air Freight", link: "/air-freight" },
       { label: "Land Freight", link: "/land-freight" },
       { label: "Sea Freight", link: "/sea-freight" },
+      { label: "Warehousing", link: "/warehousing" },
       { label: "Chemical Importation", link: "/chemical-importation" },
+      
     ]}
   />
 

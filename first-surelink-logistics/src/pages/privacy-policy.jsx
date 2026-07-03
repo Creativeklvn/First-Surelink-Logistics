@@ -15,7 +15,7 @@ function PrivacyPolicy() {
       <section className="page-content">
 <h3>Privacy Policy</h3>
 <p>
-  At <strong>First Sure Link Logistics Nig. Ltd.</strong>, we are committed to protecting
+  At First SureLink Logistics Nig. Ltd, we are committed to protecting
   your privacy and safeguarding your personal information. This Privacy Policy
   explains how we collect, use, store, and protect your information whenever
   you visit our Website or use our logistics services.

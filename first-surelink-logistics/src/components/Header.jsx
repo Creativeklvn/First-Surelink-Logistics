@@ -77,8 +77,8 @@ function Header() {
               <Link to="/chemical-importation" className="dropdown-link">
                 Chemical Importation
               </Link>
-              <Link to="/customs-clearing" className="dropdown-link">
-                Customs Clearing
+              <Link to="/warehousing" className="dropdown-link">
+                Warehousing
               </Link>
             </div>
           </div>
@@ -151,6 +151,9 @@ function Header() {
                   </Link>
                   <Link to="/chemical-importation" onClick={closeMenu}>
                     Chemical Importation
+                  </Link>
+                  <Link to="/warehousing" onClick={closeMenu}>
+                    Warehousing
                   </Link>
                 </div>
               )}
