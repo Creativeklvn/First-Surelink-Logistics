@@ -47,7 +47,9 @@ function Header() {
     <>
       <header className="header">
         <div className="logo">
+          <Link to="/Home">
           <img src="/images/logo33.png" alt="Sea freight" />
+          </Link>
         </div>
 
         <nav className="nav">

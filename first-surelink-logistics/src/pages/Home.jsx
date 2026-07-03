@@ -43,7 +43,9 @@ function Home() {
         <p>Enter a Container / Booking- or B/L-Number</p>
         <div className="tracking-box">
           <input placeholder="Container / Booking- or B/L-Number" />
-          <button>Track</button>
+          <Link to="/Home" className="track-btn">
+      Track
+    </Link>
         </div>
       </section> 
 
@@ -117,7 +119,29 @@ function Home() {
     cargo by air, sea, and road locally and internationally."
   />
 
+
+
       </section>
+<section className="cor">
+        <div>
+          <h2>Chemical Importation</h2>
+          </div>
+          </section>
+
+      <section className="service white">
+        <img src="/images/chemical.jpg" alt="Land freight" />
+        <div>
+          <h3>Imports of chemicals for manufacturing, production, and industrial operations.</h3>
+          <p>
+            Titanium Dioxide, Acrylic, Red Oxide.
+          </p>
+          <Link to="/chemical-importation" className="service-btn">
+      Read more
+</Link>
+        </div>
+      </section>
+
+
 
 
       <section className="continent-section">

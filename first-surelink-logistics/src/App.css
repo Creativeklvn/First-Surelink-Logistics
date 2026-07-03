@@ -181,7 +181,7 @@ body {
 }
 
 .tracking-box input {
-  font-size:16px;
+  font-size: 16px;
   flex: 1;
   padding: 16px;
   background: white;
@@ -189,16 +189,20 @@ body {
   color: #000000;
 }
 
-.tracking-box button{
-  background: #e00000;
+.tracking-box .track-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c30000;
   color: white;
-  border: none;
+  text-decoration: none;
   padding: 14px 28px;
   font-weight: bold;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-.tracking-box button:hover {
+.tracking-box .track-btn:hover {
   background: #ad0000;
 }
 
@@ -687,6 +691,42 @@ width: 70%;
   color: #e00000;
 }
 
+.follow{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+     padding: 0px 8%;
+   background-color: #06265a;
+   color: #dae7e9;
+   margin-top: -50px;
+   font-weight: lighter;
+}
+
+.follow-right{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.follow-right img{
+  width:40px;
+  height:40px;
+  object-fit:contain;
+}
+
+@media (max-width:768px){
+  .follow{
+    flex-direction:column;
+    text-align:center;
+    margin-top: -20px;
+  }
+
+  .follow-right{
+    justify-content:center;
+
+  }
+}
 /*copyright*/
 .footer-copyright {
   background: #06265a; /* Slightly darker than the footer */
@@ -967,6 +1007,16 @@ margin: 0;
   color: #06265a;
   font-weight: bold;
 }
+.cor h2{
+  background-color: #ffffff;
+      font-size: 35px;
+  margin: 0;
+  padding: 0;
+  color: #06265a;
+  font-weight: bold;
+  padding: 50px 50px 0;
+  margin-top: 52px;
+}
 
 .feature {
     grid-template-columns: 1fr;
@@ -1020,9 +1070,17 @@ width: 110%;
     padding: 45px 6%;
     grid-template-columns: 1fr;
   }
+  
 
   .service.white {
     flex-direction: column;
+  }
+
+    .service.white h3{
+    flex-direction: column;
+    font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 22px;
   }
 
   .service.white img {

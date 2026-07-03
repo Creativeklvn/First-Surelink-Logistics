@@ -19,12 +19,7 @@ function Industries() {
         </h2>
 
 <section className="sector-section">
-  <div className="sector-header">
-    <h2>Industries Served</h2>
-    <p>
-      Delivering quality chemical products to businesses across multiple industries.
-    </p>
-  </div>
+
 
   <div className="sector-grid">
     <div className="sector-item">

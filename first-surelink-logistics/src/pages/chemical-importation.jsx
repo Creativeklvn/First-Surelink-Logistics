@@ -15,7 +15,7 @@ function ChemicalImportation() {
 
       <section className="page-content">
         <h2>
-            Chemical imports for manufacturing, production, and industrial operations.
+            Imports of chemicals for manufacturing, production, and industrial operations.
         </h2>
 
 <section className="titanium"></section>

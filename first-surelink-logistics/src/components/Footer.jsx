@@ -7,6 +7,7 @@ function Footer() {
   return (
     <>
 <footer className="footer">
+
   <FooterLinks
     title="Services"
     items={[
@@ -69,13 +70,34 @@ function Footer() {
       </div>
 
       <div className="contact-item">
-        
         <Link to="/contact">4, Ashanti Close, Apapa, Lagos, Nigeria.</Link>
       </div>
+
+
 
     </div>
   </div>
 </footer>
+<section className="follow-up">
+  <div className="follow">
+    <h3>One Link, Endless Possibilities.</h3>
+
+    <div className="follow-right">
+      <h2>Follow Us:</h2>
+
+      <a
+        href="http://www.linkedin.com/in/firstsurelink"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="/images/linkedin.png"
+          alt="First Sure Link Logistics LinkedIn"
+        />
+      </a>
+    </div>
+  </div>
+</section>
 
 <section className="footer-copyright">
   <small>

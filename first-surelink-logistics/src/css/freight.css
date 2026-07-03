@@ -322,6 +322,7 @@ line-height: 1.2;
 
 .tracking-box-page input {
   flex: 1;
+  font-size: 16px;
   padding: 16px;
   background: rgb(235, 235, 235);
   border: none;
@@ -346,7 +347,23 @@ line-height: 1.2;
     padding: 100px 6%;
   }
 }
+@media (max-width: 768px) {
+  .tracking-box-page {
+    flex-direction: column;
+    gap: 12px;
+  }
 
+  .tracking-box-page input,
+  .tracking-box-page button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .tracking-box-page button {
+    padding: 16px;
+    font-size: 14px;
+  }
+}
 /*Support Service for track page*/
 .support-section {
   background: #f6f6f6;
