@@ -97,6 +97,17 @@ function Footer() {
           alt="First Sure Link Logistics LinkedIn"
         />
       </a>
+
+      <a
+        href="http://www.instagram.com/firstsurelink.ng"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="/images/instagram.png"
+          alt="First Sure Link Logistics LinkedIn"
+        />
+      </a>
     </div>
   </div>
 </section>
