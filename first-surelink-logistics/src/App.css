@@ -1055,6 +1055,27 @@ display: flex;
     padding: 60px 6%;
   }
 
+      .tracking-page {
+    padding: 100px 6%;
+  }
+}
+@media (max-width: 768px) {
+  .tracking-box {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .tracking-box input,
+  .tracking-box button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .tracking-box button {
+    padding: 16px;
+    font-size: 14px;
+  }
+
   .core h2{
   background-color: #ffffff;
     padding: 80px 10px;

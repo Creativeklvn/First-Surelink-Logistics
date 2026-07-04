@@ -90,9 +90,6 @@ function Header() {
               <Link to="/about-us" className="dropdown-link">
                 About Us
               </Link>
-              <Link to="/team" className="dropdown-link">
-                Our Team
-              </Link>
               <Link to="/global-reach" className="dropdown-link">
                 Global Reach
               </Link>
@@ -173,14 +170,15 @@ function Header() {
 
               {companyOpen && (
                 <div className="dropdown-content">
-                  <Link to="/about-us" onClick={closeMenu}>
-                    About Us
-                  </Link>
+
                   <Link to="/global-reach" onClick={closeMenu}>
                     Global Reach
                   </Link>
                   <Link to="/industries" onClick={closeMenu}>
                     Industries Served
+                  </Link>
+                  <Link to="/why-choose-us" onClick={closeMenu}>
+                     Why Choose Us
                   </Link>
                   
                 </div>

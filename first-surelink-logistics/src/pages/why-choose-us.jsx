@@ -4,9 +4,9 @@ import "../css/route.css";
 function WhyChooseUs() {
   return (
     <main className="page">
-      <section className="page-global">
+      <section className="page-why">
         <section className="hero-content fade-right-now">
-        <div className="page-hero-content">
+        <div className="page-hero-conten">
           <h1>Why Choose Us</h1>
           <p>Experience the First SureLink Difference</p>
         </div>
@@ -87,55 +87,12 @@ function WhyChooseUs() {
   unnecessary complications.
 </p>
 
-        <p>
-  Talk to our team:{" "}
-  <Link to="/contact" className="contact-link">
-    firstsurelink@gmail.com
-  </Link>
-</p>
+
       </section>
 
-<section className="air">
-  <div className="air-solutions">
 
-    <div className="air-header">
-      
-    </div>
 
-    <div className="air-grid">
 
-      <div className="air-card">
-        <img src="/images/plane-icon.png"alt="Air Transport"className="transport-icon"/>
-        <h3>Air Transport in Africa</h3>
-          <p>
-    Fast and efficient air freight solutions for cargo moving across Africa. We ensure secure handling, 
-    smooth logistics, and timely delivery for every shipment.
-  </p>
-      </div>
-
-      <div className="air-card">
-        <img src="/images/truck-icon.png"alt="Air Transport"className="transport-icon"/>
-        <h3>Land Transport in Africa</h3>
-         <p>
-    Comprehensive road freight services connecting businesses and communities across Africa with safe, 
-    efficient, and dependable cargo transportation.
-  </p>
-      </div>
-
-      <div className="air-card">
-        <img src="/images/ship-icon.png"alt="Air Transport"className="transport-icon"/>
-        <h3>Sea Transport in Africa</h3>
-          <p>
-    Cost-effective sea freight solutions through Africa's major ports, ensuring smooth cargo movement, 
-    secure handling, and efficient delivery.
-  </p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section className="page-globalreach"></section>
 
 
 
