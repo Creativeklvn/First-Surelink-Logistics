@@ -868,7 +868,7 @@ width: 70%;
   }
 }
 /* Mobile landscape rotation */
-@media (max-width: 768px 932px) and (orientation: landscape) {
+@media (max-width: 932px) and (max-height: 768px) and (orientation: landscape) {
   .footer {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
