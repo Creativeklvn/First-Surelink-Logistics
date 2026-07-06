@@ -43,7 +43,7 @@ function Tracking() {
       assistance.
     </p>
 
-    <Link to="/contact" className="support-btn">
+    <Link to="/contact-us" className="support-btn">
       Get Support
     </Link>
   </div>
