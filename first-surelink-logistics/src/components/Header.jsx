@@ -137,19 +137,19 @@ function Header() {
 
               {servicesOpen && (
                 <div className="dropdown-content">
-                  <Link to="/air-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="300">
+                  <Link to="/air-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="200">
                     Air Freight
                   </Link>
-                  <Link to="/sea-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
+                  <Link to="/sea-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="300">
                     Sea Freight
                   </Link>
-                  <Link to="/land-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
+                  <Link to="/land-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
                     Land Freight
                   </Link>
-                  <Link to="/chemical-importation" onClick={closeMenu}data-aos="fade-left"data-aos-duration="600">
+                  <Link to="/chemical-importation" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
                     Chemical Importation
                   </Link>
-                  <Link to="/warehousing" onClick={closeMenu}data-aos="fade-left"data-aos-duration="700">
+                  <Link to="/warehousing" onClick={closeMenu}data-aos="fade-left"data-aos-duration="600">
                     Warehousing
                   </Link>
                 </div>
@@ -171,13 +171,13 @@ function Header() {
               {companyOpen && (
                 <div className="dropdown-content">
 
-                  <Link to="/global-reach" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
+                  <Link to="/global-reach" onClick={closeMenu}data-aos="fade-left"data-aos-duration="300">
                     Global Reach
                   </Link>
-                  <Link to="/industries" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
+                  <Link to="/industries" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
                     Industries Served
                   </Link>
-                  <Link to="/why-choose-us" onClick={closeMenu}data-aos="fade-left"data-aos-duration="600">
+                  <Link to="/why-choose-us" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
                      Why Choose Us
                   </Link>
                   
