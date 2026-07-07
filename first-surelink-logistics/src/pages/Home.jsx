@@ -83,11 +83,11 @@ function Home() {
   Sea Freight Services
 </Link>
         </div>
-        <img src="/images/ship.jpg" alt="Sea freight" data-aos="fade-left"data-aos-duration="600"/>
+        <img src="/images/ship.jpg" alt="Sea freight" data-aos="fade-left"data-aos-duration="800"/>
       </section>
 
       <section className="service blue">
-        <img src="/images/truck.jpg" alt="Land freight" data-aos="fade-right"data-aos-duration="600"/>
+        <img src="/images/truck.jpg" alt="Land freight" data-aos="fade-right"data-aos-duration="800"/>
         <div>
           <h2>Land Freight</h2>
           <p>
@@ -111,7 +111,7 @@ function Home() {
   Air Freight Services
 </Link>
         </div>
-        <img src="/images/air.jpg" alt="Air freight" data-aos="fade-left"data-aos-duration="600"/>
+        <img src="/images/air.jpg" alt="Air freight" data-aos="fade-left"data-aos-duration="800"/>
       </section>
 
 
@@ -215,7 +215,7 @@ function Home() {
         <div className="smart-logistics">
         <h2>Connecting Global Trade Through Smarter Logistics.</h2>
 
-        <div className="smart-grid">
+        <div className="smart-grid"data-aos="fade-up"data-aos-duration="700">
   <InfoCard
     icon={partnershipIcon}
     title="Global Carrier Partnerships"

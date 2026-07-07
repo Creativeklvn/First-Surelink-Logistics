@@ -137,19 +137,19 @@ function Header() {
 
               {servicesOpen && (
                 <div className="dropdown-content">
-                  <Link to="/air-freight" onClick={closeMenu}>
+                  <Link to="/air-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="300">
                     Air Freight
                   </Link>
-                  <Link to="/sea-freight" onClick={closeMenu}>
+                  <Link to="/sea-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
                     Sea Freight
                   </Link>
-                  <Link to="/land-freight" onClick={closeMenu}>
+                  <Link to="/land-freight" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
                     Land Freight
                   </Link>
-                  <Link to="/chemical-importation" onClick={closeMenu}>
+                  <Link to="/chemical-importation" onClick={closeMenu}data-aos="fade-left"data-aos-duration="600">
                     Chemical Importation
                   </Link>
-                  <Link to="/warehousing" onClick={closeMenu}>
+                  <Link to="/warehousing" onClick={closeMenu}data-aos="fade-left"data-aos-duration="700">
                     Warehousing
                   </Link>
                 </div>
@@ -171,13 +171,13 @@ function Header() {
               {companyOpen && (
                 <div className="dropdown-content">
 
-                  <Link to="/global-reach" onClick={closeMenu}>
+                  <Link to="/global-reach" onClick={closeMenu}data-aos="fade-left"data-aos-duration="400">
                     Global Reach
                   </Link>
-                  <Link to="/industries" onClick={closeMenu}>
+                  <Link to="/industries" onClick={closeMenu}data-aos="fade-left"data-aos-duration="500">
                     Industries Served
                   </Link>
-                  <Link to="/why-choose-us" onClick={closeMenu}>
+                  <Link to="/why-choose-us" onClick={closeMenu}data-aos="fade-left"data-aos-duration="600">
                      Why Choose Us
                   </Link>
                   
