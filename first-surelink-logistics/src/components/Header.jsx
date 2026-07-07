@@ -53,7 +53,7 @@ function Header() {
         </div>
 
         <nav className="nav">
-          <Link to="/home" className="nav-link">
+          <Link to="/Home" className="nav-link">
             Home
           </Link>
 
@@ -115,7 +115,7 @@ function Header() {
           </div>
 
           <div className={`mobile-menu ${menuOpen ? "show" : ""}`}>
-            <Link className="mobile-item" to="/home" onClick={closeMenu}>
+            <Link className="mobile-item" to="/Home" onClick={closeMenu}>
               Home
             </Link>
 

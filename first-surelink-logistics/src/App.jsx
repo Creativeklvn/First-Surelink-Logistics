@@ -5,7 +5,7 @@ import "./App.css"; // Global styles (Header, Footer, etc.)
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import SeaFreight from "./pages/sea-freight";
 import AirFreight from "./pages/air-freight";
 import LandFreight from "./pages/land-freight";
@@ -39,7 +39,7 @@ function App() {
       <Header />
       <Routes>
         
-
+        <Route path="/" element={<Home />} />
         <Route path="/sea-freight" element={<SeaFreight />} />
         <Route path="/air-freight" element={<AirFreight />} />
         <Route path="/land-freight" element={<LandFreight />} />
@@ -64,7 +64,7 @@ function App() {
         
         
 
-        <Route path="/home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
          </Routes>
 <Footer />
 
