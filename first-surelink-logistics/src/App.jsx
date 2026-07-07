@@ -39,7 +39,7 @@ function App() {
       <Header />
       <Routes>
         
-        <Route path="/home" element={<Home />} />
+
         <Route path="/sea-freight" element={<SeaFreight />} />
         <Route path="/air-freight" element={<AirFreight />} />
         <Route path="/land-freight" element={<LandFreight />} />
