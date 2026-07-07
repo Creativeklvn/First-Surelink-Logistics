@@ -15,11 +15,10 @@ import insuranceIcon from "/images/insurance.png";
 function Home() {
  useEffect(() => {
     AOS.init({
-      duration: 700,
-      offset: -100,
-      startEvent: "DOMContentLoaded",
+
+
       delay: 0,
-      once: true, // animation runs only once
+      once: false, // animation runs only once
     });
   }, []);
 
@@ -44,7 +43,7 @@ function Home() {
   </div>
         <div className="hero-overlay">
           <h1>Import & Export Logistics Made Simple </h1>
-          <div className="hero-p"data-aos="fade-up"data-aos-duration="800">
+          <div className="hero-p"data-aos="fade-up" data-aos-duration="800">
           <p>
             Delivering comprehensive logistics services, 
             from import and export to customs clearing and freight forwarding.
@@ -83,11 +82,11 @@ function Home() {
   Sea Freight Services
 </Link>
         </div>
-        <img src="/images/ship.jpg" alt="Sea freight" data-aos="fade-left"data-aos-duration="800"/>
+        <img src="/images/ship.jpg" alt="Sea freight" data-aos="fade-left" data-aos-duration="700"/>
       </section>
 
       <section className="service blue">
-        <img src="/images/truck.jpg" alt="Land freight" data-aos="fade-right"data-aos-duration="800"/>
+        <img src="/images/truck.jpg" alt="Land freight" data-aos="fade-right" data-aos-duration="700"/>
         <div>
           <h2>Land Freight</h2>
           <p>
@@ -111,11 +110,11 @@ function Home() {
   Air Freight Services
 </Link>
         </div>
-        <img src="/images/air.jpg" alt="Air freight" data-aos="fade-left"data-aos-duration="800"/>
+        <img src="/images/air.jpg" alt="Air freight" data-aos="fade-left" data-aos-duration="700"/>
       </section>
 
 
-      <section className="features"data-aos="fade-in"data-aos-duration="700">
+      <section className="features"data-aos="fade-in" data-aos-duration="300">
   <Feature
     icon={partnershipIcon}
     title="Flexiblibity"
@@ -145,7 +144,7 @@ function Home() {
           </section>
 
       <section className="service white">
-        <img src="/images/chemical.jpg" alt="Land freight" data-aos="fade-right"data-aos-duration="600" />
+        <img src="/images/chemical.jpg" alt="Land freight" data-aos="fade-right" data-aos-duration="600" />
         <div>
           <h3>Imports of chemicals for manufacturing, production, and industrial operations.</h3>
           <p>
@@ -200,7 +199,7 @@ function Home() {
             Logistics. Our intelligent tracking platform gives you real-time
             visibility, shipment updates, document access, and delivery insights.
           </p>
-           <Link to="/tracking" className="reliable-btn"data-aos="fade-in"data-aos-duration="700">
+           <Link to="/tracking" className="reliable-btn"data-aos="fade-in" data-aos-duration="700">
   Track made easy</Link>
         </div>
         <img src="/images/map.png" alt="Air freight" />
@@ -209,13 +208,13 @@ function Home() {
 
 
       <section className="smart">
-          <div className="container"data-aos="slide-up"data-aos-duration="700">
+          <div className="container"data-aos="slide-up" data-aos-duration="700">
     <img src="/images/container.png" alt="Sea freight" />
   </div>
         <div className="smart-logistics">
         <h2>Connecting Global Trade Through Smarter Logistics.</h2>
 
-        <div className="smart-grid"data-aos="fade-up"data-aos-duration="700">
+        <div className="smart-grid"data-aos="fade-in" data-aos-duration="700">
   <InfoCard
     icon={partnershipIcon}
     title="Global Carrier Partnerships"
@@ -251,12 +250,12 @@ function Home() {
 
 <section className="flow-section">
 <div className="flow-sectio">
-  <div className="flow-heading"data-aos="fade-right"data-aos-duration="700">
+  <div className="flow-heading"data-aos="fade-right" data-aos-duration="600">
      <h3>CAPABILITY</h3>
     <h2>Making Global Logistics Simple</h2>
   </div>
 
-  <div className="flow-content"data-aos="fade-left"data-aos-duration="700">
+  <div className="flow-content"data-aos="fade-left" data-aos-duration="600">
     <p>
       We simplify the movement of goods by combining industry expertise, smart
       planning, and dependable execution. Our focus is on helping businesses
@@ -282,7 +281,7 @@ function Feature({ icon, title, description }) {
 
 function InfoCard({ icon, title, description }) {
   return (
-    <div className="info-card"data-aos="fade-in"data-aos-duration="600">
+    <div className="info-card"data-aos="fade-in" data-aos-duration="600">
        <img src={icon} alt={title} className="info-icon" />
       <h3>{title}</h3>
       <p>{description}</p>
@@ -295,7 +294,7 @@ function InfoCard({ icon, title, description }) {
 
 function Continent({ title }) {
   return (
-    <div className="continent-card"data-aos="fade-up"data-aos-duration="600">
+    <div className="continent-card"data-aos="fade-up" data-aos-duration="600">
       <p>{title}</p>
     </div>
   );

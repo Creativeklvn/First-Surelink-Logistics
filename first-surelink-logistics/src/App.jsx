@@ -5,7 +5,7 @@ import "./App.css"; // Global styles (Header, Footer, etc.)
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import SeaFreight from "./pages/sea-freight";
 import AirFreight from "./pages/air-freight";
 import LandFreight from "./pages/land-freight";
