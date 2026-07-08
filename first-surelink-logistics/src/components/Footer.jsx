@@ -60,19 +60,19 @@ function Footer() {
       <div className="contact-item">
         
         <div className="contact-text">
-          <Link to="/contact">(+234) 803 691 5391</Link>
-          <Link to="/contact">(+234) 902 165 0864</Link>
-          <Link to="/contact">(+234) 817 876 6130</Link>
+          <Link to="tel:+2348036915391">(+234) 803 691 5391</Link>
+          <Link to="tel:+2349021650864">(+234) 902 165 0864</Link>
+          <Link to="tel:+2348178766130">(+234) 817 876 6130</Link>
         </div>
       </div>
 
       <div className="contact-item">
        
-        <Link to="/contact">firstsurelink@gmail.com</Link>
+        <Link to="mailto:firstsurelink@gmail.com">firstsurelink@gmail.com</Link>
       </div>
 
       <div className="contact-item">
-        <Link to="/contact">4, Ashanti Close, Apapa, Lagos, Nigeria.</Link>
+        <Link to="/">4, Ashanti Close, Apapa, Lagos, Nigeria.</Link>
       </div>
 
 
