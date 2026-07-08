@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior:smooth;
-  
-  
 }
 
 body {
@@ -286,6 +284,7 @@ body {
   text-align: left;
   background-color: #ffffff;
     margin: 0;
+     overflow-x: hidden;
 }
 
 
@@ -300,6 +299,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .service h2 {
@@ -590,6 +590,7 @@ width: 70%;
   padding: 100px 5%;
   background: #f6f6f6;
   border-radius: 20px;
+  overflow-x: hidden;
 }
 
 .flow-heading {
@@ -614,6 +615,7 @@ width: 70%;
 
 .flow-content {
   flex: 1;
+  overflow-x: hidden;
 }
 
 .flow-content p {
@@ -1019,6 +1021,7 @@ display: flex;
 
 
 @media (max-width: 768px) {
+  
     .hero h1 {
     font-size: 64px;
     font-weight: 600;
@@ -1035,6 +1038,7 @@ display: flex;
 }
 
 }@media (max-width: 414px) {
+  
   
   .nav {
     display: none;
@@ -1151,6 +1155,7 @@ width: 110%;
   .service {
     padding: 45px 6%;
     grid-template-columns: 1fr;
+    
   }
   
 
