@@ -18,7 +18,7 @@ function Home() {
 
 
       delay: 0,
-      once: false, // animation runs only once
+      once: true, // animation runs only once
     });
   }, []);
 
