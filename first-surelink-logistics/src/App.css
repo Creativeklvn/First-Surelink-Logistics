@@ -129,7 +129,7 @@ body {
   flex-direction: column;
   width:100%;
   height:300%;
-  animation:slideHero 6s infinite ease-in-out;
+  animation:slideHero 14s infinite ease-in-out;
 }
 
 .hero-slider img{
